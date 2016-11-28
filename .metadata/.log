@@ -122,3 +122,9 @@ java.io.EOFException: Unexpected end of ZLIB input stream
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-28 17:03:46.478
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-28 18:25:55.205
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-28 18:25:55.214
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
