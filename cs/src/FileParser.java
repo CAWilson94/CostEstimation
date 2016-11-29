@@ -19,34 +19,29 @@ public class FileParser {
 		try {
 			BufferedReader br = null;
 
-			String currentLine;
+			String currentLine = " ";
 
 			br = new BufferedReader(new FileReader("china.arff.txt"));
 
-			while ((currentLine = br.readLine()) != null) {
-
-				if (currentLine.contains("@data")) {
-					currentLine = br.readLine();
-					String[] tokens = currentLine.split(",");
-					boop = new ArrayList<String>(Arrays.asList(tokens));
-				}
-			}
-			int numAttributes = boop.size();
-			System.out.println(numAttributes);
-
-			for (int i = 0; i < numAttributes; i++) {
-				List<String> list = new ArrayList<>();
-				list.add("list" + i);
-				attributes.add(list);
+			while (!(currentLine.contains("@data"))) {
+				currentLine = br.readLine();
 			}
 
-			// Just to loop through all the attributes for later on!
-			for (List<String> f : attributes) {
-				for (String t : f) {
-					System.out.println(t);
-				}
-			}
+			System.out.println("out of data");
+			currentLine = br.readLine();
+			String[] tokens = currentLine.split(",");
+			boop = new ArrayList<String>(Arrays.asList(tokens));
+			System.out.println("size is: " + boop.size());
+			// Loop everything
+			System.out.println(currentLine + "SO IT BEGINS");
 
+			/*
+			 * int numAttributes = boop.size();
+			 * System.out.println(numAttributes);
+			 * 
+			 * for (int i = 0; i < numAttributes; i++) { List<String> list = new
+			 * ArrayList<>(); }
+			 */
 			br.close();
 
 		} catch (
@@ -55,6 +50,15 @@ public class FileParser {
 			System.out.println("Something fucked up");
 		} catch (IOException e) {
 			System.out.println("readline stuffed");
+		}
+	}
+
+	public void loopAttributes() {
+		// Just to loop through all the attributes for later on!
+		for (List<String> f : attributes) {
+			for (String t : f) {
+
+			}
 		}
 	}
 
