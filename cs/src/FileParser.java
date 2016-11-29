@@ -12,9 +12,9 @@ public class FileParser {
 	 */
 
 	public List<String> boop;
-	List<List<String>> attributes = new ArrayList<List<String>>();
+	List<List<Double>> attributes = new ArrayList<List<Double>>();
 
-	public List<List<String>> file() {
+	public List<List<Double>> file() {
 
 		try {
 			BufferedReader br = null;
@@ -35,7 +35,7 @@ public class FileParser {
 			System.out.println(numAttributes);
 
 			for (int i = 0; i < numAttributes; i++) {
-				List<String> list = new ArrayList<>();
+				List<Double> list = new ArrayList<>();
 				attributes.add(list);
 			}
 
@@ -45,7 +45,7 @@ public class FileParser {
 				System.out.println(currentLine + "SO IT BEGINS");
 
 				for (int i = 0; i < columnSplit.length; i++) {
-					attributes.get(i).add(columnSplit[i]);
+					attributes.get(i).add((double) Integer.parseInt(columnSplit[i]));
 				}
 				currentLine = br.readLine();
 			}
@@ -62,24 +62,15 @@ public class FileParser {
 		} catch (IOException e) {
 			System.out.println("readline stuffed");
 		}
-		
-		
+
 		return attributes;
-				
+
 	}
 
-	public void loopAttributes(List<List<String>> attributes2) {
+	public void loopAttributes(List<List<Double>> attributes2) {
 		// Just to loop through all the attributes for later on!
-		for (List<String> f : attributes) {
+		for (List<Double> f : attributes) {
 			System.out.println(f.toString());
-		}
-	}
-	
-	public void something(){
-		for(int i = 0; i< vars.size();i++){
-			for(int j = 0; j < attributes.size()){
-				var.set().attributes.get(i);
-			}
 		}
 	}
 

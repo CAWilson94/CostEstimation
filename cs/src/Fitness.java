@@ -6,7 +6,7 @@ import org.jgap.gp.terminal.Variable;
 
 public class Fitness extends GPFitnessFunction {
 
-	private List<List<String>> inputs;
+	private List<List<Double>> inputs;
 	private int[] _output;
 	private Variable v_AFP;
 	private Variable v_Input;
@@ -28,7 +28,7 @@ public class Fitness extends GPFitnessFunction {
 
 	private static Object[] NO_ARGS = new Object[0];
 
-	public Fitness(List<List<String>> inputs, int _output[] , Variable v_AFP, Variable v_Input, Variable v_Output,
+	public Fitness(List<List<Double>> inputs, int _output[] , Variable v_AFP, Variable v_Input, Variable v_Output,
 			Variable v_Enquiry, Variable v_File, Variable v_Interface, Variable v_Added, Variable v_Changed,
 			Variable v_Deleted, Variable v_PDR_AFP, Variable v_PDR_UFP, Variable v_NPDR_AFP, Variable v_NPDU_UFP,
 			Variable v_Resource, Variable v_Dev, Variable v_Duration, Variable N_effort) {
