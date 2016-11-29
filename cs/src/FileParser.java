@@ -33,15 +33,25 @@ public class FileParser {
 			boop = new ArrayList<String>(Arrays.asList(tokens));
 			int numAttributes = boop.size();
 			System.out.println(numAttributes);
+
 			for (int i = 0; i < numAttributes; i++) {
 				List<String> list = new ArrayList<>();
 				attributes.add(list);
 			}
 
 			while (currentLine != null) {
+				String[] columnSplit = currentLine.split(",");
+				// put each column into relevant array
 				System.out.println(currentLine + "SO IT BEGINS");
+
+				for (int i = 0; i < columnSplit.length; i++) {
+					attributes.get(i).add(columnSplit[i]);
+				}
 				currentLine = br.readLine();
 			}
+			attributes.remove(0);
+			System.out.println("looping attributes/n");
+			loopAttributes(attributes);
 
 			br.close();
 
@@ -54,12 +64,10 @@ public class FileParser {
 		}
 	}
 
-	public void loopAttributes() {
+	public void loopAttributes(List<List<String>> attributes2) {
 		// Just to loop through all the attributes for later on!
 		for (List<String> f : attributes) {
-			for (String t : f) {
-
-			}
+			System.out.println(f.toString());
 		}
 	}
 
