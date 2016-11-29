@@ -17,8 +17,9 @@ import org.jgap.gp.terminal.Variable;
  */
 public class SimpleMathTest extends GPProblem {
 	FileParser fp = new FileParser();
-	private List<List<Double>> INPUTS = fp.file();
-	private static int[] OUTPUT = { 829, 141, 467, 1215, 1517 };
+	private List<List<Double>> default_input = fp.file();
+	private List<List<Double>> INPUTS = fp.input(default_input);
+	private List<Double> OUTPUT = default_input.get(-1);
 
 	private Variable v_AFP;
 	private Variable v_Input;

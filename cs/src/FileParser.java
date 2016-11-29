@@ -45,14 +45,11 @@ public class FileParser {
 				System.out.println(currentLine + "SO IT BEGINS");
 
 				for (int i = 0; i < columnSplit.length; i++) {
-					attributes.get(i).add((double) Integer.parseInt(columnSplit[i]));
+					attributes.get(i).add(Double.parseDouble(columnSplit[i]));
 				}
 				currentLine = br.readLine();
 			}
 			attributes.remove(0);
-			System.out.println("looping attributes/n");
-			loopAttributes(attributes);
-
 			br.close();
 
 		} catch (
@@ -67,7 +64,14 @@ public class FileParser {
 
 	}
 
-	public void loopAttributes(List<List<Double>> attributes2) {
+	public List<List<Double>> input(List<List<Double>> attributes) {
+		int size = attributes.size();
+		attributes.remove(size - 1);
+		return attributes;
+	}
+	
+
+	public void loopAttributes(List<List<Double>> attributes) {
 		// Just to loop through all the attributes for later on!
 		for (List<Double> f : attributes) {
 			System.out.println(f.toString());
@@ -76,7 +80,8 @@ public class FileParser {
 
 	public static void main(String[] args) {
 		FileParser fp = new FileParser();
-		fp.file();
+		fp.loopAttributes(fp.input(fp.file()));
+
 	}
 
 }
