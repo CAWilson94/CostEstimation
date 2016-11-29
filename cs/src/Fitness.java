@@ -1,11 +1,12 @@
+import java.util.List;
+
 import org.jgap.gp.GPFitnessFunction;
 import org.jgap.gp.IGPProgram;
 import org.jgap.gp.terminal.Variable;
 
 public class Fitness extends GPFitnessFunction {
 
-	private Integer[] _input1;
-	private Integer[] _input2;
+	private List<List<String>> inputs;
 	private int[] _output;
 	private Variable v_AFP;
 	private Variable v_Input;
@@ -27,12 +28,11 @@ public class Fitness extends GPFitnessFunction {
 
 	private static Object[] NO_ARGS = new Object[0];
 
-	public Fitness(Integer input1[], Integer input2[], int output[], Variable v_AFP, Variable v_Input,
-			Variable v_Output, Variable v_Enquiry, Variable v_File, Variable v_Interface, Variable v_Added,
-			Variable v_Changed, Variable v_Deleted, Variable v_PDR_AFP, Variable v_PDR_UFP, Variable v_NPDR_AFP,
-			Variable v_NPDU_UFP, Variable v_Resource, Variable v_Dev, Variable v_Duration, Variable N_effort) {
-		_input1 = input1;
-		_input2 = input2;
+	public Fitness(List<List<String>> inputs, int output[], Variable v_AFP, Variable v_Input, Variable v_Output,
+			Variable v_Enquiry, Variable v_File, Variable v_Interface, Variable v_Added, Variable v_Changed,
+			Variable v_Deleted, Variable v_PDR_AFP, Variable v_PDR_UFP, Variable v_NPDR_AFP, Variable v_NPDU_UFP,
+			Variable v_Resource, Variable v_Dev, Variable v_Duration, Variable N_effort) {
+		inputs = inputs;
 		_output = output;
 		v_AFP = v_AFP;
 		v_Input = v_Input;

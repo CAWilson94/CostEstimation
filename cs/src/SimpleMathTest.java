@@ -1,3 +1,5 @@
+import java.util.List;
+
 import org.jgap.InvalidConfigurationException;
 import org.jgap.gp.CommandGene;
 import org.jgap.gp.GPProblem;
@@ -14,12 +16,8 @@ import org.jgap.gp.terminal.Variable;
  *
  */
 public class SimpleMathTest extends GPProblem {
-	@SuppressWarnings("boxing")
-	private static Integer[] INPUT_1 = { 26, 8, 20, 33, 37 };
-
-	@SuppressWarnings("boxing")
-	private static Integer[] INPUT_2 = { 35, 24, 1, 11, 16 };
-
+	FileParser fp = new FileParser();
+	private List<List<String>> INPUTS = fp.file();
 	private static int[] OUTPUT = { 829, 141, 467, 1215, 1517 };
 
 	private Variable v_AFP;
@@ -66,10 +64,9 @@ public class SimpleMathTest extends GPProblem {
 		config.setMaxInitDepth(4);
 		config.setPopulationSize(1000);
 		config.setMaxCrossoverDepth(8);
-		config.setFitnessFunction(new Fitness(INPUT_1, INPUT_2, OUTPUT,  v_AFP, v_Input,
-				 v_Output,  v_Enquiry,  v_File, v_Interface,  v_Added,
-				 v_Changed,  v_Deleted,  v_PDR_AFP,  v_PDR_UFP,  v_NPDR_AFP,
-				 v_NPDU_UFP,  v_Resource,  v_Dev, v_Duration,  N_effort));
+		config.setFitnessFunction(new Fitness(INPUTS,OUTPUT, v_AFP, v_Input, v_Output, v_Enquiry, v_File,
+				v_Interface, v_Added, v_Changed, v_Deleted, v_PDR_AFP, v_PDR_UFP, v_NPDR_AFP, v_NPDU_UFP, v_Resource,
+				v_Dev, v_Duration, N_effort));
 		config.setStrictProgramCreation(true);
 	}
 
