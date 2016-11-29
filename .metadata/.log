@@ -3186,3 +3186,9 @@ java.io.FileNotFoundException: C:\Users\charl\workspace\cs547\costEst\.metadata\
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-29 21:44:13.015
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-29 21:45:07.226
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-29 21:45:07.245
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
