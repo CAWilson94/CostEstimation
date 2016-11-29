@@ -64,9 +64,9 @@ public class SimpleMathTest extends GPProblem {
 		config.setMaxInitDepth(4);
 		config.setPopulationSize(1000);
 		config.setMaxCrossoverDepth(8);
-		config.setFitnessFunction(new Fitness(INPUTS,OUTPUT, v_AFP, v_Input, v_Output, v_Enquiry, v_File,
-				v_Interface, v_Added, v_Changed, v_Deleted, v_PDR_AFP, v_PDR_UFP, v_NPDR_AFP, v_NPDU_UFP, v_Resource,
-				v_Dev, v_Duration, N_effort));
+		config.setFitnessFunction(new Fitness(INPUTS, OUTPUT, v_AFP, v_Input, v_Output, v_Enquiry, v_File, v_Interface,
+				v_Added, v_Changed, v_Deleted, v_PDR_AFP, v_PDR_UFP, v_NPDR_AFP, v_NPDU_UFP, v_Resource, v_Dev,
+				v_Duration, N_effort));
 		config.setStrictProgramCreation(true);
 	}
 
@@ -82,10 +82,9 @@ public class SimpleMathTest extends GPProblem {
 
 		// Next, we define the set of available GP commands and terminals to
 		// use.
-		CommandGene[][] nodeSets = { { v_AFP, v_Input, v_Output, v_Enquiry, v_File,
-			v_Interface, v_Added, v_Changed, v_Deleted, v_PDR_AFP, v_PDR_UFP, v_NPDR_AFP, v_NPDU_UFP, v_Resource,
-			v_Dev, v_Duration, N_effort, new Add(config, CommandGene.IntegerClass),
-				new Multiply(config, CommandGene.IntegerClass),
+		CommandGene[][] nodeSets = { { v_AFP, v_Input, v_Output, v_Enquiry, v_File, v_Interface, v_Added, v_Changed,
+				v_Deleted, v_PDR_AFP, v_PDR_UFP, v_NPDR_AFP, v_NPDU_UFP, v_Resource, v_Dev, v_Duration, N_effort,
+				new Add(config, CommandGene.IntegerClass), new Multiply(config, CommandGene.IntegerClass),
 				new Terminal(config, CommandGene.IntegerClass, 0.0, 10.0, true) } };
 
 		GPGenotype result = GPGenotype.randomInitialGenotype(config, types, argTypes, nodeSets, 20, true);
