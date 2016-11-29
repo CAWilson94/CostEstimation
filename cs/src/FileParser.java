@@ -14,7 +14,7 @@ public class FileParser {
 	public List<String> boop;
 	List<List<String>> attributes = new ArrayList<List<String>>();
 
-	public void file() {
+	public List<List<String>> file() {
 
 		try {
 			BufferedReader br = null;
@@ -62,12 +62,24 @@ public class FileParser {
 		} catch (IOException e) {
 			System.out.println("readline stuffed");
 		}
+		
+		
+		return attributes;
+				
 	}
 
 	public void loopAttributes(List<List<String>> attributes2) {
 		// Just to loop through all the attributes for later on!
 		for (List<String> f : attributes) {
 			System.out.println(f.toString());
+		}
+	}
+	
+	public void something(){
+		for(int i = 0; i< vars.size();i++){
+			for(int j = 0; j < attributes.size()){
+				var.set().attributes.get(i);
+			}
 		}
 	}
 

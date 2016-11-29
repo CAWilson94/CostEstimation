@@ -22,16 +22,17 @@ public class Fitness extends GPFitnessFunction {
 
 	@Override
 	protected double evaluate(final IGPProgram program) {
+
 		double result = 0.0f;
 
 		long longResult = 0;
+		System.out.println();
 		for (int i = 0; i < _input1.length; i++) {
 			// Set the input values
 			_xVariable.set(_input1[i]);
 			_yVariable.set(_input2[i]);
 			// Execute the genetically engineered algorithm
 			long value = program.execute_int(0, NO_ARGS);
-
 			// The closer longResult gets to 0 the better the algorithm.
 			longResult += Math.abs(value - _output[i]);
 		}
