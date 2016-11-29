@@ -27,21 +27,22 @@ public class FileParser {
 				currentLine = br.readLine();
 			}
 
-			System.out.println("out of data");
 			currentLine = br.readLine();
+			System.out.println(currentLine + " yer maw");
 			String[] tokens = currentLine.split(",");
 			boop = new ArrayList<String>(Arrays.asList(tokens));
-			System.out.println("size is: " + boop.size());
-			// Loop everything
-			System.out.println(currentLine + "SO IT BEGINS");
+			int numAttributes = boop.size();
+			System.out.println(numAttributes);
+			for (int i = 0; i < numAttributes; i++) {
+				List<String> list = new ArrayList<>();
+				attributes.add(list);
+			}
 
-			/*
-			 * int numAttributes = boop.size();
-			 * System.out.println(numAttributes);
-			 * 
-			 * for (int i = 0; i < numAttributes; i++) { List<String> list = new
-			 * ArrayList<>(); }
-			 */
+			while (currentLine != null) {
+				System.out.println(currentLine + "SO IT BEGINS");
+				currentLine = br.readLine();
+			}
+
 			br.close();
 
 		} catch (
