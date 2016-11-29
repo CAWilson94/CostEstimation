@@ -3,7 +3,6 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class FileParser {
 
@@ -12,7 +11,8 @@ public class FileParser {
 	 * Python. Emulate this.
 	 */
 
-	public List<String> boop = new ArrayList<String>();
+	public List<String> boop;
+	List<List<String>> attributes = new ArrayList<List<String>>();
 
 	public void file() {
 
@@ -25,22 +25,33 @@ public class FileParser {
 
 			while ((currentLine = br.readLine()) != null) {
 
-				String[] tokens = currentLine.split(",");
 				if (currentLine.contains("@data")) {
-					br.readLine();
 					currentLine = br.readLine();
-					System.out.println(currentLine);
-					boop.add(currentLine);
+					String[] tokens = currentLine.split(",");
+					boop = new ArrayList<String>(Arrays.asList(tokens));
+				}
+			}
+			int numAttributes = boop.size();
+			System.out.println(numAttributes);
+
+			for (int i = 0; i < numAttributes; i++) {
+				List<String> list = new ArrayList<>();
+				list.add("list" + i);
+				attributes.add(list);
+			}
+
+			// Just to loop through all the attributes for later on!
+			for (List<String> f : attributes) {
+				for (String t : f) {
+					System.out.println(t);
 				}
 			}
 
-			System.out.println("some shit");
-			for (String c : boop) {
-				System.out.println(c + " boop");
-			}
 			br.close();
 
-		} catch (FileNotFoundException e) {
+		} catch (
+
+		FileNotFoundException e) {
 			System.out.println("Something fucked up");
 		} catch (IOException e) {
 			System.out.println("readline stuffed");
