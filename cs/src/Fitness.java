@@ -28,9 +28,9 @@ public class Fitness extends GPFitnessFunction {
 	private static Object[] NO_ARGS = new Object[0];
 
 	public Fitness(Integer input1[], Integer input2[], int output[], Variable v_AFP, Variable v_Input,
-				Variable v_Output, Variable v_Enquiry, Variable v_File, Variable v_Interface, Variable v_Added,
-				Variable v_Changed, Variable v_Deleted, Variable v_PDR_AFP, Variable v_PDR_UFP, Variable v_NPDR_AFP,
-				Variable v_NPDU_UFP, Variable v_Resource, Variable v_Dev, Variable v_Duration, Variable N_effort) {
+			Variable v_Output, Variable v_Enquiry, Variable v_File, Variable v_Interface, Variable v_Added,
+			Variable v_Changed, Variable v_Deleted, Variable v_PDR_AFP, Variable v_PDR_UFP, Variable v_NPDR_AFP,
+			Variable v_NPDU_UFP, Variable v_Resource, Variable v_Dev, Variable v_Duration, Variable N_effort) {
 		_input1 = input1;
 		_input2 = input2;
 		_output = output;
@@ -48,7 +48,7 @@ public class Fitness extends GPFitnessFunction {
 		v_NPDR_AFP = v_NPDR_AFP;
 		v_NPDU_UFP = v_NPDU_UFP;
 		v_Resource = v_Resource;
-		Dev = Dev;
+		v_Dev = v_Dev;
 
 	}
 
