@@ -20,7 +20,6 @@ public class SimpleMathTest extends GPProblem {
 	@SuppressWarnings("boxing")
 	// private static Integer[] INPUT_1 = { 26, 8 };
 	static FileParser fp = new FileParser();
-	private static List<Double> INPUT_1 = fp.file().get(1);
 
 	@SuppressWarnings("boxing")
 	private static Integer[] INPUT_2 = { 35, 24 };
@@ -29,10 +28,20 @@ public class SimpleMathTest extends GPProblem {
 
 	private Variable _xVariable;
 	private Variable _yVariable;
+	// Custom variables
+	private Variable _KLOC;
+	private Variable _SCRN;
+	private Variable _FORM;
+	private Variable _FILE;
+	private Variable _ESCRN;
+	private Variable _EFORM;
+	private Variable _EFILE;
 
 	/* Custom Params */
 	private List<List<Double>> totalInput = fp.file();
+
 	private List<Double> OUTPUTtotal = totalInput.get(totalInput.size() - 1);
+
 	// Labels for each column
 	private List<Variable> labels = new ArrayList<Variable>();
 
@@ -42,13 +51,23 @@ public class SimpleMathTest extends GPProblem {
 		GPConfiguration config = getGPConfiguration();
 
 		_xVariable = Variable.create(config, "X", CommandGene.IntegerClass);
-		_yVariable = Variable.create(config, "Y", CommandGene.IntegerClass);s
+		_yVariable = Variable.create(config, "Y", CommandGene.IntegerClass);
+
+		// Custom label maker
+		_KLOC = Variable.create(config, "KLOC", CommandGene.IntegerClass);
+		_SCRN = Variable.create(config, "SCRN", CommandGene.IntegerClass);
+		_FORM = Variable.create(config, "FORM", CommandGene.IntegerClass);
+		_FILE = Variable.create(config, "FILE", CommandGene.IntegerClass);
+		_ESCRN = Variable.create(config, "_ESCRN", CommandGene.IntegerClass);
+		_EFORM = Variable.create(config, "EFORM", CommandGene.IntegerClass);
+		_EFILE = Variable.create(config, "EFILE", CommandGene.IntegerClass);
 
 		config.setGPFitnessEvaluator(new DeltaGPFitnessEvaluator());
 		config.setMaxInitDepth(4);
 		config.setPopulationSize(1000);
 		config.setMaxCrossoverDepth(8);
-		config.setFitnessFunction(new SimpleMathTestFitnessFunction(totalInput, OUTPUTtotal, labels));
+		config.setFitnessFunction(new SimpleMathTestFitnessFunction(totalInput, OUTPUTtotal, _KLOC, _SCRN, _FORM, _FILE,
+				_ESCRN, _EFORM, _EFILE));
 		config.setStrictProgramCreation(true);
 	}
 
@@ -64,8 +83,8 @@ public class SimpleMathTest extends GPProblem {
 
 		// Next, we define the set of available GP commands and terminals to
 		// use.
-		CommandGene[][] nodeSets = { { _xVariable, _yVariable, new Add(config, CommandGene.IntegerClass),
-				new Multiply(config, CommandGene.IntegerClass),
+		CommandGene[][] nodeSets = { { _KLOC, _SCRN, _FORM, _FILE, _ESCRN, _EFORM, _EFILE,
+				new Add(config, CommandGene.IntegerClass), new Multiply(config, CommandGene.IntegerClass),
 				new Terminal(config, CommandGene.IntegerClass, 0.0, 10.0, true) } };
 
 		GPGenotype result = GPGenotype.randomInitialGenotype(config, types, argTypes, nodeSets, 20, true);

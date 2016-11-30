@@ -33,24 +33,26 @@ public class FileParser {
 			int numAttributes = boop.size();
 			System.out.println(numAttributes);
 
-			for (int i = 0; i < numAttributes; i++) {
+			for (int i = 1; i < numAttributes; i++) {
 				List<Double> list = new ArrayList<>();
 				attributes.add(list);
 			}
 
 			while (currentLine != null) {
+				System.out.println("Current Line: " + currentLine);
 				String[] columnSplit = currentLine.split(",");
 				// put each column into relevant array
 				System.out.println(currentLine + "SO IT BEGINS");
 
-				for (int i = 1; i < columnSplit.length; i++) { // Skips Id's
-					attributes.get(i).add(Double.parseDouble(columnSplit[i]));
+				for (int i = 1; i < columnSplit.length; i++) { // Skips Id's  
+					attributes.get(i - 1).add(Double.parseDouble(columnSplit[i]));
 				}
 				currentLine = br.readLine();
 			}
 			// attributes.remove(0);
 			System.out.println("looping attributes/n");
 			loopAttributes(attributes);
+			System.out.println("Done looping");
 
 			br.close();
 
@@ -73,9 +75,10 @@ public class FileParser {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		FileParser fp = new FileParser();
 		fp.file();
 	}
 
 }
+ 
