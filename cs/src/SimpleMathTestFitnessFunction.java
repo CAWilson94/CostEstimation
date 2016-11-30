@@ -12,7 +12,10 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 	private Variable _xVariable;
 	private Variable _yVariable;
 
+	// Custom inputs etc
 	private List<List<Double>> totalInput;
+	List<Double> out_put;
+	List<Variable> varLabels;
 
 	private static Object[] NO_ARGS = new Object[0];
 
@@ -24,11 +27,10 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 		_yVariable = y;
 	}
 
-	public SimpleMathTestFitnessFunction(List<List<Double>> input, int[] outPut, Variable xVar, Variable yVar) {
+	public SimpleMathTestFitnessFunction(List<List<Double>> input, List<Double> outPut, List<Variable> labels) {
 		totalInput = input;
-		_output = outPut;
-		_xVariable = xVar;
-		_yVariable = yVar;
+		out_put = outPut;
+		varLabels = labels;
 	}
 
 	@Override

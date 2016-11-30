@@ -29,13 +29,12 @@ public class SimpleMathTest extends GPProblem {
 
 	private Variable _xVariable;
 	private Variable _yVariable;
-	
 
 	/* Custom Params */
 	private List<List<Double>> totalInput = fp.file();
 	private List<Double> OUTPUTtotal = totalInput.get(totalInput.size() - 1);
 	// Labels for each column
-	private List<Variable> labels = new ArrayList<Variable>(); 
+	private List<Variable> labels = new ArrayList<Variable>();
 
 	public SimpleMathTest() throws InvalidConfigurationException {
 		super(new GPConfiguration());
@@ -49,7 +48,7 @@ public class SimpleMathTest extends GPProblem {
 		config.setMaxInitDepth(4);
 		config.setPopulationSize(1000);
 		config.setMaxCrossoverDepth(8);
-		config.setFitnessFunction(new SimpleMathTestFitnessFunction(totalInput, OUTPUT, _xVariable, _yVariable));
+		config.setFitnessFunction(new SimpleMathTestFitnessFunction(totalInput, OUTPUTtotal, labels));
 		config.setStrictProgramCreation(true);
 	}
 
