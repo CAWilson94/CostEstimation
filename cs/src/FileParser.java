@@ -12,30 +12,29 @@ public class FileParser {
 	 */
 
 	public List<String> boop;
-	List<List<String>> attributes = new ArrayList<List<String>>();
+	List<List<Double>> attributes = new ArrayList<List<Double>>();
 
-	public List<List<String>> file() {
+	public List<List<Double>> file() {
 
 		try {
 			BufferedReader br = null;
 
 			String currentLine = " ";
 
-			br = new BufferedReader(new FileReader("china.arff.txt"));
+			br = new BufferedReader(new FileReader("miyazaki94.arff"));
 
 			while (!(currentLine.contains("@data"))) {
 				currentLine = br.readLine();
 			}
 
 			currentLine = br.readLine();
-			System.out.println(currentLine + " yer maw");
 			String[] tokens = currentLine.split(",");
 			boop = new ArrayList<String>(Arrays.asList(tokens));
 			int numAttributes = boop.size();
 			System.out.println(numAttributes);
 
 			for (int i = 0; i < numAttributes; i++) {
-				List<String> list = new ArrayList<>();
+				List<Double> list = new ArrayList<>();
 				attributes.add(list);
 			}
 
@@ -44,12 +43,12 @@ public class FileParser {
 				// put each column into relevant array
 				System.out.println(currentLine + "SO IT BEGINS");
 
-				for (int i = 0; i < columnSplit.length; i++) {
-					attributes.get(i).add(columnSplit[i]);
+				for (int i = 1; i < columnSplit.length; i++) { // Skips Id's
+					attributes.get(i).add(Double.parseDouble(columnSplit[i]));
 				}
 				currentLine = br.readLine();
 			}
-			attributes.remove(0);
+			// attributes.remove(0);
 			System.out.println("looping attributes/n");
 			loopAttributes(attributes);
 
@@ -67,9 +66,9 @@ public class FileParser {
 
 	}
 
-	public void loopAttributes(List<List<String>> attributes2) {
+	public void loopAttributes(List<List<Double>> attributes2) {
 		// Just to loop through all the attributes for later on!
-		for (List<String> f : attributes) {
+		for (List<Double> f : attributes) {
 			System.out.println(f.toString());
 		}
 	}

@@ -1,3 +1,5 @@
+import java.util.List;
+
 import org.jgap.InvalidConfigurationException;
 import org.jgap.gp.CommandGene;
 import org.jgap.gp.GPProblem;
@@ -15,7 +17,11 @@ import org.jgap.gp.terminal.Variable;
  */
 public class SimpleMathTest extends GPProblem {
 	@SuppressWarnings("boxing")
-	private static Integer[] INPUT_1 = { 26, 8 };
+	// private static Integer[] INPUT_1 = { 26, 8 };
+	static FileParser fp = new FileParser();
+	private static List<Double> INPUT_1 = fp.file().get(1);
+	private List<List<Double>> totalInput = fp.file(); // THE INPUT YOU ARE
+														// USING
 
 	@SuppressWarnings("boxing")
 	private static Integer[] INPUT_2 = { 35, 24 };
@@ -37,7 +43,7 @@ public class SimpleMathTest extends GPProblem {
 		config.setMaxInitDepth(4);
 		config.setPopulationSize(1000);
 		config.setMaxCrossoverDepth(8);
-		config.setFitnessFunction(new SimpleMathTestFitnessFunction(INPUT_1, INPUT_2, OUTPUT, _xVariable, _yVariable));
+		config.setFitnessFunction(new SimpleMathTestFitnessFunction(totalInput, OUTPUT, _xVariable, _yVariable));
 		config.setStrictProgramCreation(true);
 	}
 
