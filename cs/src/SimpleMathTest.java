@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 import org.jgap.InvalidConfigurationException;
@@ -20,8 +21,6 @@ public class SimpleMathTest extends GPProblem {
 	// private static Integer[] INPUT_1 = { 26, 8 };
 	static FileParser fp = new FileParser();
 	private static List<Double> INPUT_1 = fp.file().get(1);
-	private List<List<Double>> totalInput = fp.file(); // THE INPUT YOU ARE
-														// USING
 
 	@SuppressWarnings("boxing")
 	private static Integer[] INPUT_2 = { 35, 24 };
@@ -30,6 +29,13 @@ public class SimpleMathTest extends GPProblem {
 
 	private Variable _xVariable;
 	private Variable _yVariable;
+	
+
+	/* Custom Params */
+	private List<List<Double>> totalInput = fp.file();
+	private List<Double> OUTPUTtotal = totalInput.get(totalInput.size() - 1);
+	// Labels for each column
+	private List<Variable> labels = new ArrayList<Variable>(); 
 
 	public SimpleMathTest() throws InvalidConfigurationException {
 		super(new GPConfiguration());
