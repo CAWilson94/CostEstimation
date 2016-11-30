@@ -432,3 +432,32 @@
 [30.11.2016 01:18:57,600] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
 [30.11.2016 01:18:57,658] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
 [30.11.2016 01:18:57,661] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
+[30.11.2016 08:37:46,244] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[30.11.2016 08:37:46,264] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[30.11.2016 08:37:46,283] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[30.11.2016 08:37:46,396] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[30.11.2016 08:37:46,408] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
+[30.11.2016 08:44:09,222] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[30.11.2016 08:44:09,230] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[30.11.2016 08:44:09,242] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[30.11.2016 08:44:09,285] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[30.11.2016 08:44:09,286] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
+[30.11.2016 08:44:09,346] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[30.11.2016 08:44:09,349] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((4 * X) * (Y * Y)) * ((4 * X) * (X * Y))
+[30.11.2016 08:44:09,349] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[30.11.2016 08:44:09,697] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 173.9 MB
+[30.11.2016 08:44:09,751] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[30.11.2016 08:44:09,751] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((4 * X) * (Y * Y)) * ((4 * X) * (X * Y))
+[30.11.2016 08:44:09,751] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[30.11.2016 08:46:20,948] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[30.11.2016 08:46:20,954] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[30.11.2016 08:46:20,975] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[30.11.2016 08:46:21,049] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[30.11.2016 08:46:21,052] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
+[30.11.2016 08:46:21,142] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[30.11.2016 08:46:21,143] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Y + Y) * (9 + Y)
+[30.11.2016 08:46:21,144] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[30.11.2016 08:46:21,463] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 106.2 MB
+[30.11.2016 08:46:21,520] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[30.11.2016 08:46:21,521] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Y + Y) * (9 + Y)
+[30.11.2016 08:46:21,522] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2

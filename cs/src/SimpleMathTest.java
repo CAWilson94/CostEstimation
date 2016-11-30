@@ -42,7 +42,7 @@ public class SimpleMathTest extends GPProblem {
 		GPConfiguration config = getGPConfiguration();
 
 		_xVariable = Variable.create(config, "X", CommandGene.IntegerClass);
-		_yVariable = Variable.create(config, "Y", CommandGene.IntegerClass);
+		_yVariable = Variable.create(config, "Y", CommandGene.IntegerClass);s
 
 		config.setGPFitnessEvaluator(new DeltaGPFitnessEvaluator());
 		config.setMaxInitDepth(4);

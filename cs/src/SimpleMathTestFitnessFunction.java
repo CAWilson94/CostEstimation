@@ -38,7 +38,7 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 		double result = 0.0f;
 
 		long longResult = 0;
-		for (int i = 0; i < _input1.size(); i++) {
+		/*for (int i = 0; i < _input1.size(); i++) {
 			// Set the input values
 			_xVariable.set(_input1.get(i));
 			_xVariable.set(_input1.get(i));
@@ -48,6 +48,14 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 
 			// The closer longResult gets to 0 the better the algorithm.
 			longResult += Math.abs(value - _output[i]);
+		}*/
+
+		for (int i = 0; i < out_put.size(); i++) {
+			for (int j = 0; j < totalInput.size(); j++) {
+				varLabels.get(j).set(totalInput.get(i).get(i));
+				long value = program.execute_int(0, NO_ARGS);
+				longResult += Math.abs(value - _output[i]);
+			}
 		}
 
 		result = longResult;
