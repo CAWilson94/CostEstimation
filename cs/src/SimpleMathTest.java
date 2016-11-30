@@ -15,12 +15,12 @@ import org.jgap.gp.terminal.Variable;
  */
 public class SimpleMathTest extends GPProblem {
 	@SuppressWarnings("boxing")
-	private static Integer[] INPUT_1 = { 26, 8, 20, 33, 37 };
+	private static Integer[] INPUT_1 = { 26, 8 };
 
 	@SuppressWarnings("boxing")
-	private static Integer[] INPUT_2 = { 35, 24, 1, 11, 16 };
+	private static Integer[] INPUT_2 = { 35, 24 };
 
-	private static int[] OUTPUT = { 829, 141, 467, 1215, 1517 };
+	private static int[] OUTPUT = { 829, 141, 467 };
 
 	private Variable _xVariable;
 	private Variable _yVariable;
@@ -29,7 +29,6 @@ public class SimpleMathTest extends GPProblem {
 		super(new GPConfiguration());
 
 		GPConfiguration config = getGPConfiguration();
-		
 
 		_xVariable = Variable.create(config, "X", CommandGene.IntegerClass);
 		_yVariable = Variable.create(config, "Y", CommandGene.IntegerClass);
@@ -38,7 +37,7 @@ public class SimpleMathTest extends GPProblem {
 		config.setMaxInitDepth(4);
 		config.setPopulationSize(1000);
 		config.setMaxCrossoverDepth(8);
-		config.setFitnessFunction(new Fitness(INPUT_1, INPUT_2, OUTPUT, _xVariable, _yVariable));
+		config.setFitnessFunction(new SimpleMathTestFitnessFunction(INPUT_1, INPUT_2, OUTPUT, _xVariable, _yVariable));
 		config.setStrictProgramCreation(true);
 	}
 
@@ -72,7 +71,6 @@ public class SimpleMathTest extends GPProblem {
 
 		System.out.println("Formula to discover: x^2 + 2y + 3x + 5");
 		gp.outputSolution(gp.getAllTimeBest());
-
 	}
 
 }
