@@ -28,7 +28,6 @@ public class FileParser {
 			}
 
 			currentLine = br.readLine();
-			System.out.println(currentLine + " yer maw");
 			String[] tokens = currentLine.split(",");
 			boop = new ArrayList<String>(Arrays.asList(tokens));
 			int numAttributes = boop.size();
@@ -42,7 +41,6 @@ public class FileParser {
 			while (currentLine != null) {
 				String[] columnSplit = currentLine.split(",");
 				// put each column into relevant array
-				System.out.println(currentLine + "SO IT BEGINS");
 
 				for (int i = 0; i < columnSplit.length; i++) {
 					attributes.get(i).add(Double.parseDouble(columnSplit[i]));
@@ -69,7 +67,6 @@ public class FileParser {
 		attributes.remove(size - 1);
 		return attributes;
 	}
-	
 
 	public void loopAttributes(List<List<Double>> attributes) {
 		// Just to loop through all the attributes for later on!

@@ -11,15 +11,11 @@ import org.jgap.gp.impl.GPGenotype;
 import org.jgap.gp.terminal.Terminal;
 import org.jgap.gp.terminal.Variable;
 
-/**
- * @author carlos
- *
- */
 public class SimpleMathTest extends GPProblem {
 	FileParser fp = new FileParser();
 	private List<List<Double>> default_input = fp.file();
 	private List<List<Double>> INPUTS = fp.input(default_input);
-	private List<Double> OUTPUT = default_input.get(-1);
+	private List<Double> OUTPUT = default_input.get(default_input.size() - 1);
 
 	private Variable v_AFP;
 	private Variable v_Input;
@@ -54,6 +50,7 @@ public class SimpleMathTest extends GPProblem {
 		v_Changed = Variable.create(config, "v_Changed", CommandGene.IntegerClass);
 		v_Deleted = Variable.create(config, "v_Deleted", CommandGene.IntegerClass);
 		v_PDR_AFP = Variable.create(config, "v_PDR_AFP", CommandGene.IntegerClass);
+		v_PDR_UFP = Variable.create(config, "v_PDR_UFP", CommandGene.IntegerClass);
 		v_NPDR_AFP = Variable.create(config, "v_NPDR_AFP", CommandGene.IntegerClass);
 		v_NPDU_UFP = Variable.create(config, "v_NPDU_UFP", CommandGene.IntegerClass);
 		v_Resource = Variable.create(config, "v_Resource", CommandGene.IntegerClass);
@@ -93,7 +90,25 @@ public class SimpleMathTest extends GPProblem {
 		return result;
 	}
 
+	public void printShit() {
+		System.out.println(OUTPUT.toString());
+		/*
+		 * System.out.println( v_AFP.getName() + v_Input.getName() +
+		 * v_Output.getName() + v_Enquiry.getName() + v_File.getName() +
+		 * v_Interface.getName() + v_Added.getName() + v_Changed.getName() +
+		 * v_Deleted.getName() + v_PDR_AFP.getName() + v_PDR_UFP.getName() +
+		 * v_NPDR_AFP.getName() + v_NPDU_UFP.getName() + v_Resource.getName() +
+		 * v_Dev.getName() + v_Duration.getName() + N_effort.getName());
+		 */
+
+		System.out.println(v_PDR_AFP.getName());
+		System.out.println(v_PDR_UFP.getName()); // Null pointer here..
+		System.out.println(v_NPDR_AFP.getName());
+		System.out.println(v_NPDU_UFP.getName());
+	}
+
 	public static void main(String[] args) throws Exception {
+
 		GPProblem problem = new SimpleMathTest();
 
 		GPGenotype gp = problem.create();
