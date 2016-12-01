@@ -17,8 +17,6 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 		totalInput = input;
 		out_put = outPut;
 		labels = labs;
-		int last = input.size() - 1;
-		input.remove(last);
 	}
 
 	@Override
@@ -27,9 +25,11 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 		long longResult = 0;
 
 		for (int i = 0; i < out_put.size(); i++) {
+
 			for (int j = 0; j < totalInput.size(); j++) {
 				labels.get(j).set(totalInput.get(j).get(i));
 			}
+
 			long value = (long) program.execute_double(0, NO_ARGS);
 			longResult += Math.abs(value - out_put.get(i));
 		}

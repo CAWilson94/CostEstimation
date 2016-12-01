@@ -748,3 +748,145 @@
 [01.12.2016 13:16:59,804] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 3047.0
 [01.12.2016 13:16:59,804] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (6.304852938500684 * 6.304852938500684) - (6.304852938500684 - 6.304852938500684)
 [01.12.2016 13:16:59,804] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[01.12.2016 13:38:36,940] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:38:36,944] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:38:36,952] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:38:37,002] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:38:37,004] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.6 MB
+[01.12.2016 13:38:37,113] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 3047.0
+[01.12.2016 13:38:37,115] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 5.692022745291148 * ((6.359027983372032 + 6.359027983372032) - 5.692022745291148)
+[01.12.2016 13:38:37,115] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 13:38:37,608] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 205.3 MB
+[01.12.2016 13:38:37,679] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 3047.0
+[01.12.2016 13:38:37,680] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 5.692022745291148 * ((6.359027983372032 + 6.359027983372032) - 5.692022745291148)
+[01.12.2016 13:38:37,680] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 13:39:20,185] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:39:20,188] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:39:20,196] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:39:20,244] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:39:20,246] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:39:59,891] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:39:59,895] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:39:59,904] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:39:59,954] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:39:59,955] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:40:14,844] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:40:14,848] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:40:14,857] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:40:14,904] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:40:14,906] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
+[01.12.2016 13:41:59,752] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:41:59,757] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:41:59,764] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:41:59,813] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:41:59,815] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:46:51,956] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:46:51,960] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:46:51,969] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:46:52,018] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:46:52,020] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:47:11,344] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:47:11,347] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:47:11,357] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:47:11,402] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:47:11,403] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:48:51,277] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:48:51,281] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:48:51,290] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:48:51,335] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:48:51,336] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:53:37,123] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:53:37,127] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:53:37,137] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:53:37,178] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:53:37,179] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:54:57,913] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:54:57,917] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:54:57,926] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:54:57,974] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:54:57,976] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:55:25,669] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:55:25,674] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:55:25,682] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:55:25,736] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:55:25,738] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:57:25,234] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:57:25,238] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:57:25,248] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:57:25,317] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:57:25,319] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:57:39,696] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:57:39,699] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:57:39,708] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:57:39,747] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:57:39,748] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:58:08,447] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:58:08,451] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:58:08,459] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:58:08,500] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:58:08,501] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 13:58:19,459] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:58:19,463] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:58:19,473] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:58:19,514] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:58:19,515] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
+[01.12.2016 13:59:29,965] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:59:29,970] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:59:29,979] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:59:30,025] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:59:30,026] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
+[01.12.2016 13:59:52,338] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 13:59:52,343] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 13:59:52,352] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 13:59:52,400] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 13:59:52,401] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
+[01.12.2016 14:00:38,542] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 14:00:38,545] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 14:00:38,555] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 14:00:38,596] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 14:00:38,597] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 14:00:57,008] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1960.0
+[01.12.2016 14:00:57,010] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (SCRN / EFILE) + (SCRN + FILE)
+[01.12.2016 14:00:57,011] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[01.12.2016 14:01:28,285] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 14:01:28,289] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 14:01:28,300] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 14:01:28,351] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 14:01:28,352] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 14:01:28,526] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1960.0
+[01.12.2016 14:01:28,529] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: SCRN + FILE
+[01.12.2016 14:01:28,530] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 1
+[01.12.2016 14:01:28,678] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1943.0
+[01.12.2016 14:01:28,678] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (FILE + SCRN) + ((SCRN + FORM) / (_ESCRN + EFORM))
+[01.12.2016 14:01:28,678] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 14:01:28,979] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1937.0
+[01.12.2016 14:01:28,979] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (SCRN + FILE) + ((SCRN + FORM) / ((FILE + SCRN) + ((SCRN + FORM) / (_ESCRN + EFORM))))
+[01.12.2016 14:01:28,980] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
+[01.12.2016 14:01:29,089] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 94.2 MB
+[01.12.2016 14:01:29,127] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1922.0
+[01.12.2016 14:01:29,127] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((FILE * _ESCRN) + (_ESCRN * SCRN)) / ((EFORM / FORM) + (_ESCRN - KLOC))
+[01.12.2016 14:01:29,127] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 14:01:29,187] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1922.0
+[01.12.2016 14:01:29,187] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((FILE * _ESCRN) + (_ESCRN * SCRN)) / ((EFORM / FORM) + (_ESCRN - KLOC))
+[01.12.2016 14:01:29,187] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 14:01:48,376] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 14:01:48,380] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 14:01:48,389] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 14:01:48,438] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 14:01:48,439] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 14:01:48,546] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 2228.0
+[01.12.2016 14:01:48,549] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (EFILE / EFILE) + (FORM + SCRN)
+[01.12.2016 14:01:48,550] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[01.12.2016 14:01:48,596] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1960.0
+[01.12.2016 14:01:48,596] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: FILE + SCRN
+[01.12.2016 14:01:48,596] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 1
+[01.12.2016 14:01:48,710] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1938.0
+[01.12.2016 14:01:48,710] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: FILE - (3.5158680259872708 - SCRN)
+[01.12.2016 14:01:48,710] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[01.12.2016 14:01:48,728] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1603.0
+[01.12.2016 14:01:48,729] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((SCRN / FILE) / (2.7061175311476964 / KLOC)) / ((_ESCRN + FILE) / (2.7061175311476964 + EFILE))
+[01.12.2016 14:01:48,729] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 14:01:48,919] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 95.9 MB
+[01.12.2016 14:01:49,007] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 1603.0
+[01.12.2016 14:01:49,008] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((SCRN / FILE) / (2.7061175311476964 / KLOC)) / ((_ESCRN + FILE) / (2.7061175311476964 + EFILE))
+[01.12.2016 14:01:49,008] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3

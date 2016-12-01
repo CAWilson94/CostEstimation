@@ -43,13 +43,13 @@ public class SimpleMathTest extends GPProblem {
 		GPConfiguration config = getGPConfiguration();
 
 		// Custom label maker
-		_KLOC = Variable.create(config, "KLOC", CommandGene.IntegerClass);
-		_SCRN = Variable.create(config, "SCRN", CommandGene.IntegerClass);
-		_FORM = Variable.create(config, "FORM", CommandGene.IntegerClass);
-		_FILE = Variable.create(config, "FILE", CommandGene.IntegerClass);
-		_ESCRN = Variable.create(config, "_ESCRN", CommandGene.IntegerClass);
-		_EFORM = Variable.create(config, "EFORM", CommandGene.IntegerClass);
-		_EFILE = Variable.create(config, "EFILE", CommandGene.IntegerClass);
+		_KLOC = Variable.create(config, "KLOC", CommandGene.DoubleClass);
+		_SCRN = Variable.create(config, "SCRN", CommandGene.DoubleClass);
+		_FORM = Variable.create(config, "FORM", CommandGene.DoubleClass);
+		_FILE = Variable.create(config, "FILE", CommandGene.DoubleClass);
+		_ESCRN = Variable.create(config, "_ESCRN", CommandGene.DoubleClass);
+		_EFORM = Variable.create(config, "EFORM", CommandGene.DoubleClass);
+		_EFILE = Variable.create(config, "EFILE", CommandGene.DoubleClass);
 
 		labels.add(_KLOC);
 		labels.add(_SCRN);
@@ -57,14 +57,18 @@ public class SimpleMathTest extends GPProblem {
 		labels.add(_FILE);
 		labels.add(_ESCRN);
 		labels.add(_EFORM);
-		labels.add(_EFORM);
 		labels.add(_EFILE);
 
 		config.setGPFitnessEvaluator(new DeltaGPFitnessEvaluator());
 		config.setMaxInitDepth(4);
 		config.setPopulationSize(1000);
 		config.setMaxCrossoverDepth(8);
-		config.setFitnessFunction(new SimpleMathTestFitnessFunction(totalInput, OUTPUTtotal, labels));
+
+		List<List<Double>> INPUT = new ArrayList<List<Double>>();
+		for (int i = 0; i < totalInput.size() - 1; i++) {
+			INPUT.add(totalInput.get(i));
+		}
+		config.setFitnessFunction(new SimpleMathTestFitnessFunction(INPUT, OUTPUTtotal, labels));
 		config.setStrictProgramCreation(true);
 	}
 
@@ -79,7 +83,9 @@ public class SimpleMathTest extends GPProblem {
 		Class[][] argTypes = { {} };
 
 		ArrayList<CommandGene> badLabels = new ArrayList<CommandGene>();
-		badLabels.addAll(labels);
+		for (int i = 0; i < labels.size(); i++) {
+			badLabels.add(labels.get(i));
+		}
 
 		badLabels.add(new Add(config, CommandGene.DoubleClass));
 		badLabels.add(new Multiply(config, CommandGene.DoubleClass));
@@ -89,7 +95,11 @@ public class SimpleMathTest extends GPProblem {
 
 		// Next, we define the set of available GP commands and terminals to
 		// use.
-		CommandGene[] badLabelArray = badLabels.toArray(new CommandGene[badLabels.size()]);
+		CommandGene[] badLabelArray = new CommandGene[badLabels.size()];
+
+		for (int i = 0; i < badLabelArray.length; i++) {
+			badLabelArray[i] = badLabels.get(i);
+		}
 		CommandGene[][] nodeSets = { badLabelArray };
 
 		GPGenotype result = GPGenotype.randomInitialGenotype(config, types, argTypes, nodeSets, 20, true);
