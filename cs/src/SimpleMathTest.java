@@ -36,10 +36,13 @@ public class SimpleMathTest extends GPProblem {
 
 		GPConfiguration config = getGPConfiguration();
 
-		for (int i = 0; i < labels.size()-1; i++) {
+		for (int i = 0; i < labels.size() - 1; i++) {
 			labels4dayz.add(Variable.create(config, labels.get(i), CommandGene.DoubleClass));
 		}
 
+		/**
+		 * *****************YOUR SETTINGS ARE HERE********************
+		 */
 		config.setGPFitnessEvaluator(new DeltaGPFitnessEvaluator());
 		config.setMaxInitDepth(4);
 		config.setPopulationSize(1000);

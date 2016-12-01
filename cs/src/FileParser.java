@@ -22,7 +22,7 @@ public class FileParser {
 
 			String currentLine = " ";
 
-			br = new BufferedReader(new FileReader("china.arff.txt"));
+			br = new BufferedReader(new FileReader("kemerer.arff.txt"));
 
 			while (!(currentLine.contains("@data"))) {
 				currentLine = br.readLine();
