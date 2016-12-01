@@ -22,7 +22,7 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 	@Override
 	protected double evaluate(final IGPProgram program) {
 		double result = 0.0f;
-		long longResult = 0;
+		double longResult = 0;
 
 		for (int i = 0; i < out_put.size(); i++) {
 
@@ -30,8 +30,9 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 				labels.get(j).set(totalInput.get(j).get(i));
 			}
 
-			long value = (long) program.execute_double(0, NO_ARGS);
-			longResult += Math.abs(value - out_put.get(i));
+			double value = program.execute_double(0, NO_ARGS);
+			longResult += Math.abs(value - out_put.get(i)) / out_put.get(i);
+
 		}
 		result = longResult;
 		return result;
