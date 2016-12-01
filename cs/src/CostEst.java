@@ -14,11 +14,7 @@ import org.jgap.gp.impl.GPGenotype;
 import org.jgap.gp.terminal.Terminal;
 import org.jgap.gp.terminal.Variable;
 
-/**
- * @author carlos
- *
- */
-public class SimpleMathTest extends GPProblem {
+public class CostEst extends GPProblem {
 
 	static FileParser fp = new FileParser();
 
@@ -31,7 +27,7 @@ public class SimpleMathTest extends GPProblem {
 	private List<String> labels = fp.getLabels();
 	List<Variable> labels4dayz = new ArrayList<Variable>();
 
-	public SimpleMathTest() throws InvalidConfigurationException {
+	public CostEst() throws InvalidConfigurationException {
 		super(new GPConfiguration());
 
 		GPConfiguration config = getGPConfiguration();
@@ -44,16 +40,16 @@ public class SimpleMathTest extends GPProblem {
 		 * *****************YOUR SETTINGS ARE HERE********************
 		 */
 		config.setGPFitnessEvaluator(new DeltaGPFitnessEvaluator());
-		config.setMaxInitDepth(4);
+		config.setMaxInitDepth(100);
 		config.setPopulationSize(1000);
-		config.setMaxCrossoverDepth(8);
+		config.setMaxCrossoverDepth(200); // Does this make a blind bit of difference?
 
 		List<List<Double>> INPUT = new ArrayList<List<Double>>();
 		for (int i = 0; i < totalInput.size() - 1; i++) {
 			INPUT.add(totalInput.get(i));
 		}
 
-		config.setFitnessFunction(new SimpleMathTestFitnessFunction(INPUT, OUTPUTtotal, labels4dayz));
+		config.setFitnessFunction(new FitnessFunction(INPUT, OUTPUTtotal, labels4dayz));
 		config.setStrictProgramCreation(true);
 	}
 
@@ -93,11 +89,16 @@ public class SimpleMathTest extends GPProblem {
 	}
 
 	public static void main(String[] args) throws Exception {
-		GPProblem problem = new SimpleMathTest();
+		csvWriter csv = new csvWriter();
+		csv.extractResults();
+		long startTime = System.currentTimeMillis();
+		GPProblem problem = new CostEst();
 		GPGenotype gp = problem.create();
 		gp.setVerboseOutput(true);
-		gp.evolve(30);
+		gp.evolve(100);
 		gp.outputSolution(gp.getAllTimeBest());
+		long endTime = System.currentTimeMillis();
+		System.out.println("That took " + (endTime - startTime) + " milliseconds");
 	}
 
 }

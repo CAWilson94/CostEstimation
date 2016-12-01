@@ -4,7 +4,7 @@ import org.jgap.gp.GPFitnessFunction;
 import org.jgap.gp.IGPProgram;
 import org.jgap.gp.terminal.Variable;
 
-public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
+public class FitnessFunction extends GPFitnessFunction {
 
 	// Custom inputs etc
 	private List<List<Double>> totalInput;
@@ -13,7 +13,7 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 
 	private static Object[] NO_ARGS = new Object[0];
 
-	public SimpleMathTestFitnessFunction(List<List<Double>> input, List<Double> outPut, List<Variable> labs) {
+	public FitnessFunction(List<List<Double>> input, List<Double> outPut, List<Variable> labs) {
 		totalInput = input;
 		out_put = outPut;
 		labels = labs;

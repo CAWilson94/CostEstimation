@@ -1,10 +1,10 @@
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
 
 public class csvWriter {
 
-	public static void main(String[] args) throws Exception {
-
+	public void extractResults() throws IOException {
 		String csvFile = "abc.csv";
 		FileWriter writer = new FileWriter(csvFile);
 
@@ -21,7 +21,6 @@ public class csvWriter {
 
 		writer.flush();
 		writer.close();
-
 	}
 
 }
