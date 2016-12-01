@@ -19,7 +19,7 @@ import org.jgap.gp.terminal.Variable;
  *
  */
 public class SimpleMathTest extends GPProblem {
-	
+
 	static FileParser fp = new FileParser();
 	private Variable _KLOC;
 	private Variable _SCRN;
@@ -31,8 +31,8 @@ public class SimpleMathTest extends GPProblem {
 
 	/* Custom Params */
 	private List<List<Double>> totalInput = fp.file();
-
-	private List<Double> OUTPUTtotal = totalInput.get(totalInput.size() - 1);
+	int size = totalInput.size() - 1;
+	private List<Double> OUTPUTtotal = totalInput.get(size);
 
 	// Labels for each column
 	private ArrayList<Variable> labels = new ArrayList<Variable>();
@@ -73,7 +73,7 @@ public class SimpleMathTest extends GPProblem {
 		GPConfiguration config = getGPConfiguration();
 
 		// The return type of the GP program.
-		Class[] types = { CommandGene.IntegerClass };
+		Class[] types = { CommandGene.DoubleClass };
 
 		// Arguments of result-producing chromosome: none
 		Class[][] argTypes = { {} };
@@ -81,11 +81,11 @@ public class SimpleMathTest extends GPProblem {
 		ArrayList<CommandGene> badLabels = new ArrayList<CommandGene>();
 		badLabels.addAll(labels);
 
-		badLabels.add(new Add(config, CommandGene.IntegerClass));
-		badLabels.add(new Multiply(config, CommandGene.IntegerClass));
-		badLabels.add(new Subtract(config, CommandGene.IntegerClass));
-		badLabels.add(new Divide(config, CommandGene.IntegerClass));
-		badLabels.add(new Terminal(config, CommandGene.IntegerClass, 0.0, 10.0, false));
+		badLabels.add(new Add(config, CommandGene.DoubleClass));
+		badLabels.add(new Multiply(config, CommandGene.DoubleClass));
+		badLabels.add(new Subtract(config, CommandGene.DoubleClass));
+		badLabels.add(new Divide(config, CommandGene.DoubleClass));
+		badLabels.add(new Terminal(config, CommandGene.DoubleClass, 0.0, 10.0, false));
 
 		// Next, we define the set of available GP commands and terminals to
 		// use.

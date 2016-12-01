@@ -17,12 +17,15 @@ public class SimpleMathTestFitnessFunction extends GPFitnessFunction {
 		totalInput = input;
 		out_put = outPut;
 		labels = labs;
+		int last = input.size() - 1;
+		input.remove(last);
 	}
 
 	@Override
 	protected double evaluate(final IGPProgram program) {
-		double result = 0.0;
+		double result = 0.0f;
 		long longResult = 0;
+
 		for (int i = 0; i < out_put.size(); i++) {
 			for (int j = 0; j < totalInput.size(); j++) {
 				labels.get(j).set(totalInput.get(j).get(i));
