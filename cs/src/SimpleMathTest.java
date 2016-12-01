@@ -5,7 +5,9 @@ import org.jgap.InvalidConfigurationException;
 import org.jgap.gp.CommandGene;
 import org.jgap.gp.GPProblem;
 import org.jgap.gp.function.Add;
+import org.jgap.gp.function.Divide;
 import org.jgap.gp.function.Multiply;
+import org.jgap.gp.function.Subtract;
 import org.jgap.gp.impl.DeltaGPFitnessEvaluator;
 import org.jgap.gp.impl.GPConfiguration;
 import org.jgap.gp.impl.GPGenotype;
@@ -17,18 +19,8 @@ import org.jgap.gp.terminal.Variable;
  *
  */
 public class SimpleMathTest extends GPProblem {
-	@SuppressWarnings("boxing")
-	// private static Integer[] INPUT_1 = { 26, 8 };
+	
 	static FileParser fp = new FileParser();
-
-	@SuppressWarnings("boxing")
-	private static Integer[] INPUT_2 = { 35, 24 };
-
-	private static int[] OUTPUT = { 829, 141, 467 };
-
-	private Variable _xVariable;
-	private Variable _yVariable;
-	// Custom variables
 	private Variable _KLOC;
 	private Variable _SCRN;
 	private Variable _FORM;
@@ -43,15 +35,12 @@ public class SimpleMathTest extends GPProblem {
 	private List<Double> OUTPUTtotal = totalInput.get(totalInput.size() - 1);
 
 	// Labels for each column
-	private List<Variable> labels = new ArrayList<Variable>();
+	private ArrayList<Variable> labels = new ArrayList<Variable>();
 
 	public SimpleMathTest() throws InvalidConfigurationException {
 		super(new GPConfiguration());
 
 		GPConfiguration config = getGPConfiguration();
-
-		_xVariable = Variable.create(config, "X", CommandGene.IntegerClass);
-		_yVariable = Variable.create(config, "Y", CommandGene.IntegerClass);
 
 		// Custom label maker
 		_KLOC = Variable.create(config, "KLOC", CommandGene.IntegerClass);
@@ -62,12 +51,20 @@ public class SimpleMathTest extends GPProblem {
 		_EFORM = Variable.create(config, "EFORM", CommandGene.IntegerClass);
 		_EFILE = Variable.create(config, "EFILE", CommandGene.IntegerClass);
 
+		labels.add(_KLOC);
+		labels.add(_SCRN);
+		labels.add(_FORM);
+		labels.add(_FILE);
+		labels.add(_ESCRN);
+		labels.add(_EFORM);
+		labels.add(_EFORM);
+		labels.add(_EFILE);
+
 		config.setGPFitnessEvaluator(new DeltaGPFitnessEvaluator());
 		config.setMaxInitDepth(4);
 		config.setPopulationSize(1000);
 		config.setMaxCrossoverDepth(8);
-		config.setFitnessFunction(new SimpleMathTestFitnessFunction(totalInput, OUTPUTtotal, _KLOC, _SCRN, _FORM, _FILE,
-				_ESCRN, _EFORM, _EFILE));
+		config.setFitnessFunction(new SimpleMathTestFitnessFunction(totalInput, OUTPUTtotal, labels));
 		config.setStrictProgramCreation(true);
 	}
 
@@ -81,11 +78,19 @@ public class SimpleMathTest extends GPProblem {
 		// Arguments of result-producing chromosome: none
 		Class[][] argTypes = { {} };
 
+		ArrayList<CommandGene> badLabels = new ArrayList<CommandGene>();
+		badLabels.addAll(labels);
+
+		badLabels.add(new Add(config, CommandGene.IntegerClass));
+		badLabels.add(new Multiply(config, CommandGene.IntegerClass));
+		badLabels.add(new Subtract(config, CommandGene.IntegerClass));
+		badLabels.add(new Divide(config, CommandGene.IntegerClass));
+		badLabels.add(new Terminal(config, CommandGene.IntegerClass, 0.0, 10.0, false));
+
 		// Next, we define the set of available GP commands and terminals to
 		// use.
-		CommandGene[][] nodeSets = { { _KLOC, _SCRN, _FORM, _FILE, _ESCRN, _EFORM, _EFILE,
-				new Add(config, CommandGene.IntegerClass), new Multiply(config, CommandGene.IntegerClass),
-				new Terminal(config, CommandGene.IntegerClass, 0.0, 10.0, true) } };
+		CommandGene[] badLabelArray = badLabels.toArray(new CommandGene[badLabels.size()]);
+		CommandGene[][] nodeSets = { badLabelArray };
 
 		GPGenotype result = GPGenotype.randomInitialGenotype(config, types, argTypes, nodeSets, 20, true);
 
@@ -94,12 +99,9 @@ public class SimpleMathTest extends GPProblem {
 
 	public static void main(String[] args) throws Exception {
 		GPProblem problem = new SimpleMathTest();
-
 		GPGenotype gp = problem.create();
 		gp.setVerboseOutput(true);
 		gp.evolve(30);
-
-		System.out.println("Formula to discover: x^2 + 2y + 3x + 5");
 		gp.outputSolution(gp.getAllTimeBest());
 	}
 

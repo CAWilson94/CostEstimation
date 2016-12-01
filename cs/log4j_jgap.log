@@ -1,587 +1,603 @@
-[29.11.2016 18:12:16,713] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 18:12:16,719] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 18:12:16,727] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 18:12:16,772] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 18:12:16,773] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[29.11.2016 18:12:16,940] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 87.0
-[29.11.2016 18:12:16,945] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y * 2) + (X * X)) + ((X + 5) + (X + Y))
-[29.11.2016 18:12:16,947] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:12:17,024] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[29.11.2016 18:12:17,025] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Y + 3) + ((2 * X) + ((Y + (X * X)) + X))
-[29.11.2016 18:12:17,042] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[29.11.2016 18:12:17,313] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 5.0
-[29.11.2016 18:12:17,314] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((6 + Y) + ((X * X) + (Y + X))) + X) + X
-[29.11.2016 18:12:17,314] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[29.11.2016 18:12:17,462] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:12:17,463] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((X + Y) + X) + Y) + ((X * X) + (5 + X))
-[29.11.2016 18:12:17,463] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:12:17,787] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 101.5 MB
-[29.11.2016 18:12:17,858] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:12:17,858] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((X + Y) + X) + Y) + ((X * X) + (5 + X))
-[29.11.2016 18:12:17,858] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:21:08,245] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 18:21:08,252] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 18:21:08,259] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 18:21:08,302] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 18:21:08,303] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[29.11.2016 18:21:08,453] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 169.0
-[29.11.2016 18:21:08,456] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X + 5) * X) * 1
-[29.11.2016 18:21:08,457] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:21:08,488] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 81.0
-[29.11.2016 18:21:08,489] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + 7) + (X * X)) + ((Y + X) + (X + 7))
-[29.11.2016 18:21:08,489] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:21:08,548] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 25.0
-[29.11.2016 18:21:08,550] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: Y + ((2 * X) + ((Y + X) + (X * X)))
-[29.11.2016 18:21:08,551] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:21:08,568] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[29.11.2016 18:21:08,569] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (X * X) + (((Y + Y) + (3 + X)) + (X + X))
-[29.11.2016 18:21:08,569] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:21:08,618] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:21:08,619] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (X * X) + ((X + X) + (Y + (X + (Y + 5))))
-[29.11.2016 18:21:08,619] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[29.11.2016 18:21:08,853] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 98.9 MB
-[29.11.2016 18:21:08,923] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:21:08,924] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (X * X) + ((X + X) + (Y + (X + (Y + 5))))
-[29.11.2016 18:21:08,925] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[29.11.2016 18:38:34,994] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 18:38:34,999] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 18:38:35,008] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 18:38:35,050] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 18:38:35,052] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
-[29.11.2016 18:38:35,360] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 86.0
-[29.11.2016 18:38:35,361] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X + Y) + Y) + (6 + ((X * (X + 1)) + Y))
-[29.11.2016 18:38:35,362] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[29.11.2016 18:38:35,454] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 25.0
-[29.11.2016 18:38:35,454] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X * (X + 1)) + (Y + Y)) + (X + X)
-[29.11.2016 18:38:35,455] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:38:35,643] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 5.0
-[29.11.2016 18:38:35,644] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X * 3) + (X * X)) + ((3 + Y) + (Y + 3))
-[29.11.2016 18:38:35,644] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:38:36,026] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:38:36,027] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X * X) + (X + 5)) + ((Y + Y) + (X + X))
-[29.11.2016 18:38:36,027] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:38:36,604] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 138.9 MB
-[29.11.2016 18:38:36,776] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:38:36,776] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X * X) + (X + 5)) + ((Y + Y) + (X + X))
-[29.11.2016 18:38:36,777] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:42:08,809] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 18:42:08,814] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 18:42:08,823] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 18:42:08,862] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 18:42:08,863] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[29.11.2016 18:42:09,025] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 82.0
-[29.11.2016 18:42:09,027] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X + 3) + (X * X)) + ((X + 3) + (Y + X))
-[29.11.2016 18:42:09,028] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:42:09,074] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[29.11.2016 18:42:09,075] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X + 1) * X) + (((7 + X) + (Y + Y)) + X)
-[29.11.2016 18:42:09,075] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:42:09,456] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 5.0
-[29.11.2016 18:42:09,456] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (X + (X + (Y + X))) + ((X * X) + (6 + Y))
-[29.11.2016 18:42:09,457] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:42:09,473] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:42:09,473] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: X + ((((X * X) + ((X + 1) + X)) + (Y + Y)) + 4)
-[29.11.2016 18:42:09,474] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 6
-[29.11.2016 18:42:09,695] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 98.7 MB
-[29.11.2016 18:42:09,825] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:42:09,826] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: X + ((((X * X) + ((X + 1) + X)) + (Y + Y)) + 4)
-[29.11.2016 18:42:09,826] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 6
-[29.11.2016 18:42:39,656] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 18:42:39,668] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 18:42:39,679] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 18:42:39,735] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 18:42:39,737] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[29.11.2016 18:42:39,876] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 97.0
-[29.11.2016 18:42:39,879] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((1 + X) + (1 + Y)) + ((1 + X) * (1 + X))
-[29.11.2016 18:42:39,879] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:42:39,964] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 81.0
-[29.11.2016 18:42:39,964] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X + Y) + (X + 7)) + ((7 + Y) + (X * X))
-[29.11.2016 18:42:39,964] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:42:40,008] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 25.0
-[29.11.2016 18:42:40,008] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X * X) + (Y + Y)) + (3 * X)
-[29.11.2016 18:42:40,009] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[29.11.2016 18:42:40,096] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 15.0
-[29.11.2016 18:42:40,097] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((2 + (X * X)) + (Y + Y)) + (3 * X)
-[29.11.2016 18:42:40,097] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:42:40,142] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[29.11.2016 18:42:40,142] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Y + Y) + ((7 + X) + ((X + X) + (X * X)))
-[29.11.2016 18:42:40,143] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:42:40,246] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 5.0
-[29.11.2016 18:42:40,247] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X * 2) + (Y + Y)) + ((6 + (X * X)) + X)
-[29.11.2016 18:42:40,247] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[29.11.2016 18:42:40,437] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:42:40,437] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: X + (Y + ((5 + Y) + ((X + (X * X)) + X)))
-[29.11.2016 18:42:40,439] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 6
-[29.11.2016 18:42:40,545] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 98.4 MB
-[29.11.2016 18:42:40,634] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[29.11.2016 18:42:40,635] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: X + (Y + ((5 + Y) + ((X + (X * X)) + X)))
-[29.11.2016 18:42:40,635] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 6
-[29.11.2016 23:20:28,013] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:20:28,018] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:21:27,574] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:21:27,578] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:21:43,589] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:21:43,595] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:22:30,897] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:22:30,906] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:36:30,132] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:36:30,138] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:36:30,151] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:36:30,204] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:36:30,206] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
-[29.11.2016 23:36:54,216] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:36:54,226] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:36:54,242] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:36:54,296] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:36:54,298] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:40:05,771] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:40:05,778] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:40:05,789] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:40:05,844] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:40:05,846] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
-[29.11.2016 23:40:18,714] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:40:18,720] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:40:18,731] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:40:18,782] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:40:18,783] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
-[29.11.2016 23:41:21,831] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:41:21,836] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:41:21,849] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:41:21,902] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:41:21,903] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
-[29.11.2016 23:41:37,148] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:41:37,155] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:41:37,164] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:41:37,248] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:41:37,250] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:41:53,431] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:41:53,436] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:41:53,445] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:41:53,500] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:41:53,501] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:43:48,548] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:43:48,554] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:43:48,566] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:43:48,621] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:43:48,623] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:46:59,703] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:46:59,708] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:46:59,719] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:46:59,777] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:46:59,778] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:48:17,353] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:48:17,360] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:48:17,371] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:48:17,428] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:48:17,430] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:48:49,589] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:48:49,594] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:48:49,604] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:48:49,664] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:48:49,665] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
-[29.11.2016 23:48:49,755] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[29.11.2016 23:48:49,755] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: v_Output
-[29.11.2016 23:48:49,755] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[29.11.2016 23:48:50,312] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 82.7 MB
-[29.11.2016 23:48:50,396] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[29.11.2016 23:48:50,396] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: v_Output
-[29.11.2016 23:48:50,396] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[29.11.2016 23:51:52,838] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:51:52,843] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:51:52,856] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:51:52,913] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:51:52,914] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
-[29.11.2016 23:52:12,720] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:52:12,727] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:52:12,738] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:52:12,805] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:52:12,806] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:52:22,442] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:52:22,447] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:52:22,459] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:52:22,514] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:52:22,515] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:52:41,819] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:52:41,824] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:52:41,836] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:52:41,891] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:52:41,892] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:54:07,831] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:54:07,835] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:54:07,846] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:54:07,906] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:54:07,909] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[29.11.2016 23:54:24,062] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:54:24,068] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:54:24,082] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:54:24,140] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:54:24,141] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
-[29.11.2016 23:54:32,680] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[29.11.2016 23:54:32,685] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[29.11.2016 23:54:32,698] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[29.11.2016 23:54:32,750] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[29.11.2016 23:54:32,751] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[30.11.2016 00:12:55,042] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:12:55,047] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:12:55,059] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:12:55,114] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:12:55,115] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
-[30.11.2016 00:12:55,246] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[30.11.2016 00:12:55,246] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: v_Dev
-[30.11.2016 00:12:55,247] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[30.11.2016 00:12:56,004] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 85.6 MB
-[30.11.2016 00:12:56,121] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[30.11.2016 00:12:56,122] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: v_Dev
-[30.11.2016 00:12:56,122] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[30.11.2016 00:13:11,765] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:13:11,770] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:13:11,782] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:13:11,841] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:13:11,842] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[30.11.2016 00:13:11,924] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[30.11.2016 00:13:11,927] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((v_Changed * v_Dev) + (v_Interface + v_Added)) * ((v_Deleted * v_Interface) + (v_NPDR_AFP * v_Dev))
-[30.11.2016 00:13:11,928] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:13:12,341] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 82.7 MB
-[30.11.2016 00:13:12,415] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[30.11.2016 00:13:12,416] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((v_Changed * v_Dev) + (v_Interface + v_Added)) * ((v_Deleted * v_Interface) + (v_NPDR_AFP * v_Dev))
-[30.11.2016 00:13:12,416] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:13:43,330] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:13:43,334] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:13:43,341] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:13:43,391] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:13:43,392] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
-[30.11.2016 00:13:43,462] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[30.11.2016 00:13:43,464] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (v_Resource + v_Duration) * (v_Changed + v_Output)
-[30.11.2016 00:13:43,465] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 00:13:43,882] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 88.1 MB
-[30.11.2016 00:13:43,965] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[30.11.2016 00:13:43,965] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (v_Resource + v_Duration) * (v_Changed + v_Output)
-[30.11.2016 00:13:43,966] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 00:47:25,238] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:47:25,243] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:47:25,255] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:47:25,307] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:47:25,309] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[30.11.2016 00:47:34,561] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:47:34,566] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:47:34,577] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:47:34,622] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:47:34,623] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[30.11.2016 00:48:05,939] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:48:05,945] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:48:05,953] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:48:06,004] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:48:06,005] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.9 MB
-[30.11.2016 00:57:24,210] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:57:24,217] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:57:24,225] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:57:24,263] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:57:24,264] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 00:57:24,365] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 149.0
-[30.11.2016 00:57:24,367] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: Y + (((X + Y) + X) + (X * X))
-[30.11.2016 00:57:24,367] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[30.11.2016 00:57:24,457] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 113.0
-[30.11.2016 00:57:24,458] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (4 + X) * X
-[30.11.2016 00:57:24,458] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 00:57:24,478] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 97.0
-[30.11.2016 00:57:24,479] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X + Y) + (9 * 9)) + (((0 * 0) * Y) + (X * X))
-[30.11.2016 00:57:24,479] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[30.11.2016 00:57:24,511] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 78.0
-[30.11.2016 00:57:24,512] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + 4) + ((X + Y) + ((5 + 5) + (X + Y)))) + (X * X)
-[30.11.2016 00:57:24,512] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 00:57:24,539] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 20.0
-[30.11.2016 00:57:24,539] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((1 * Y) + (X + X)) + (X * X)) + (X + (Y + 1))
-[30.11.2016 00:57:24,540] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[30.11.2016 00:57:24,633] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 5.0
-[30.11.2016 00:57:24,634] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: X + (((X + Y) + ((X + Y) + (X * X))) + 6)
-[30.11.2016 00:57:24,634] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 00:57:24,714] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:57:24,714] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((1 * Y) + X) + ((X * X) + Y)) + (X + (X + 5))
-[30.11.2016 00:57:24,715] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[30.11.2016 00:57:24,885] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 99.2 MB
-[30.11.2016 00:57:24,960] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:57:24,960] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((1 * Y) + X) + ((X * X) + Y)) + (X + (X + 5))
-[30.11.2016 00:57:24,960] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[30.11.2016 00:57:51,291] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:57:51,296] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:57:51,304] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:57:51,345] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:57:51,346] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 00:57:51,458] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 76.0
-[30.11.2016 00:57:51,461] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X * X) + (3 * X)) + ((Y + 2) + (Y + Y))
-[30.11.2016 00:57:51,462] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:57:51,502] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 5.0
-[30.11.2016 00:57:51,503] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X * X) + (3 * X)) + (((2 + 2) + 2) + (Y + Y))
-[30.11.2016 00:57:51,503] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[30.11.2016 00:57:51,938] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:57:51,938] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + 5) + (X * X)) + ((X + X) + (X + Y))
-[30.11.2016 00:57:51,939] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:57:51,939] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 99.0 MB
-[30.11.2016 00:57:52,017] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:57:52,018] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + 5) + (X * X)) + ((X + X) + (X + Y))
-[30.11.2016 00:57:52,018] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:58:12,051] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:58:12,057] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:58:12,067] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:58:12,111] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:58:12,112] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 00:58:12,253] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 92.0
-[30.11.2016 00:58:12,255] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((5 + X) + (Y + Y)) + (1 + X)) + ((X * X) + (Y + X))
-[30.11.2016 00:58:12,256] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[30.11.2016 00:58:12,298] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 70.0
-[30.11.2016 00:58:12,299] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (3 * (X + Y)) + (X * X)
-[30.11.2016 00:58:12,299] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:58:12,327] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 20.0
-[30.11.2016 00:58:12,328] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((1 + X) + (Y + X)) + ((X * X) + (Y + X))
-[30.11.2016 00:58:12,328] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:58:12,359] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 15.0
-[30.11.2016 00:58:12,359] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((X * X) + (X + 8)) + ((Y + X) + (Y + X))
-[30.11.2016 00:58:12,360] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:58:12,455] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 5.0
-[30.11.2016 00:58:12,455] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Y + 2) + (((X * X) + ((X + 1) * (1 + 1))) + (X + Y))
-[30.11.2016 00:58:12,455] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 00:58:12,625] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:58:12,626] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (X + (X + (X + (X * X)))) + ((5 + Y) + Y)
-[30.11.2016 00:58:12,626] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 00:58:12,763] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 99.0 MB
-[30.11.2016 00:58:12,844] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:58:12,844] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (X + (X + (X + (X * X)))) + ((5 + Y) + Y)
-[30.11.2016 00:58:12,844] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 00:58:33,524] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:58:33,529] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:58:33,537] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:58:33,579] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:58:33,581] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 00:58:33,683] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:58:33,686] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + 5) + (X + X)) + ((X * X) + (X + Y))
-[30.11.2016 00:58:33,687] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:58:34,305] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 101.5 MB
-[30.11.2016 00:58:34,373] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:58:34,373] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + 5) + (X + X)) + ((X * X) + (X + Y))
-[30.11.2016 00:58:34,373] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 00:59:19,602] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 00:59:19,607] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 00:59:19,614] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 00:59:19,652] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 00:59:19,653] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 00:59:19,789] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 169.0
-[30.11.2016 00:59:19,793] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: X * (X + 5)
-[30.11.2016 00:59:19,794] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 00:59:19,836] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 48.0
-[30.11.2016 00:59:19,839] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (X + Y) + ((((X * X) + (5 * 5)) + X) + Y)
-[30.11.2016 00:59:19,839] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 00:59:19,983] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 5.0
-[30.11.2016 00:59:19,983] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (6 + (X + Y)) + (((X * X) + X) + (Y + X))
-[30.11.2016 00:59:19,983] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[30.11.2016 00:59:20,290] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:59:20,291] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((X + (5 + X)) + (X * X)) + Y) + (X + Y)
-[30.11.2016 00:59:20,291] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 00:59:20,361] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 166.2 MB
-[30.11.2016 00:59:20,438] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 00:59:20,438] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((X + (5 + X)) + (X * X)) + Y) + (X + Y)
-[30.11.2016 00:59:20,438] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 01:06:34,845] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 01:06:34,850] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 01:06:34,861] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 01:06:34,914] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 01:06:34,916] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 01:06:35,056] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 10.0
-[30.11.2016 01:06:35,059] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + (X * X)) + (X + (X + X))) + Y
-[30.11.2016 01:06:35,061] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
-[30.11.2016 01:06:35,377] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 6.0
-[30.11.2016 01:06:35,377] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + X) + (X + X)) + ((Y + 2) + (X * X))
-[30.11.2016 01:06:35,377] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 01:06:35,444] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 2.0
-[30.11.2016 01:06:35,444] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Y + X) + ((((2 + X) * X) + 4) + Y)
-[30.11.2016 01:06:35,445] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 01:06:36,014] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 168.6 MB
-[30.11.2016 01:06:36,076] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 2.0
-[30.11.2016 01:06:36,076] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Y + X) + ((((2 + X) * X) + 4) + Y)
-[30.11.2016 01:06:36,076] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
-[30.11.2016 01:16:38,693] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 01:16:38,698] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 01:16:38,718] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 01:16:38,771] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 01:16:38,773] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 01:16:50,011] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 01:16:50,019] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 01:16:50,030] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 01:16:50,080] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 01:16:50,083] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
-[30.11.2016 01:17:00,817] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 01:17:00,824] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 01:17:00,838] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 01:17:00,889] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 01:17:00,891] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 01:17:21,236] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 01:17:21,242] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 01:17:21,255] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 01:17:21,328] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 01:17:21,331] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
-[30.11.2016 01:17:54,167] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 01:17:54,173] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 01:17:54,184] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 01:17:54,232] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 01:17:54,235] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 01:18:06,243] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 01:18:06,248] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 01:18:06,260] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 01:18:06,309] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 01:18:06,313] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 01:18:57,560] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 01:18:57,580] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 01:18:57,600] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 01:18:57,658] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 01:18:57,661] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 08:37:46,244] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 08:37:46,264] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 08:37:46,283] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 08:37:46,396] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 08:37:46,408] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 08:44:09,222] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 08:44:09,230] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 08:44:09,242] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 08:44:09,285] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 08:44:09,286] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 08:44:09,346] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:44:09,349] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((4 * X) * (Y * Y)) * ((4 * X) * (X * Y))
-[30.11.2016 08:44:09,349] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 08:44:09,697] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 173.9 MB
-[30.11.2016 08:44:09,751] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:44:09,751] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((4 * X) * (Y * Y)) * ((4 * X) * (X * Y))
-[30.11.2016 08:44:09,751] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 08:46:20,948] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 08:46:20,954] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 08:46:20,975] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 08:46:21,049] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 08:46:21,052] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
-[30.11.2016 08:46:21,142] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:46:21,143] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Y + Y) * (9 + Y)
-[30.11.2016 08:46:21,144] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 08:46:21,463] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 106.2 MB
-[30.11.2016 08:46:21,520] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:46:21,521] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (Y + Y) * (9 + Y)
-[30.11.2016 08:46:21,522] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 08:51:17,259] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 08:51:17,267] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 08:51:17,280] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 08:51:17,331] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 08:51:17,335] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 08:51:17,401] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:51:17,402] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 2
-[30.11.2016 08:51:17,403] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[30.11.2016 08:51:17,717] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 106.4 MB
-[30.11.2016 08:51:17,773] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:51:17,774] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 2
-[30.11.2016 08:51:17,774] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[30.11.2016 08:52:08,289] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 08:52:08,298] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 08:52:08,312] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 08:52:08,363] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 08:52:08,365] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
-[30.11.2016 08:52:08,453] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:52:08,455] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 7 * (X + 7)
-[30.11.2016 08:52:08,456] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 08:52:08,819] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 108.8 MB
-[30.11.2016 08:52:08,881] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:52:08,881] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 7 * (X + 7)
-[30.11.2016 08:52:08,881] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 08:53:45,911] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 08:53:45,916] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 08:53:45,924] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 08:53:45,976] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 08:53:45,995] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.5 MB
-[30.11.2016 08:53:46,074] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:53:46,074] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: Y
-[30.11.2016 08:53:46,075] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[30.11.2016 08:53:46,414] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 175.8 MB
-[30.11.2016 08:53:46,468] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:53:46,468] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: Y
-[30.11.2016 08:53:46,469] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[30.11.2016 08:55:28,442] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 08:55:28,451] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 08:55:28,462] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 08:55:28,515] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 08:55:28,519] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.0 MB
-[30.11.2016 08:55:28,587] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:55:28,590] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + Y) * (X + X)) * ((0 * 0) + (Y * 6))
-[30.11.2016 08:55:28,590] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 08:55:29,016] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 105.8 MB
-[30.11.2016 08:55:29,092] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:55:29,092] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((Y + Y) * (X + X)) * ((0 * 0) + (Y * 6))
-[30.11.2016 08:55:29,093] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
-[30.11.2016 08:56:18,175] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 08:56:18,180] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 08:56:18,191] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 08:56:18,240] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 08:56:18,247] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
-[30.11.2016 08:56:18,315] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:56:18,316] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: Y
-[30.11.2016 08:56:18,317] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[30.11.2016 08:56:18,654] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 108.8 MB
-[30.11.2016 08:56:18,721] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 08:56:18,721] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: Y
-[30.11.2016 08:56:18,721] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
-[30.11.2016 09:17:50,039] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 09:17:50,089] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 09:17:50,109] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 09:17:50,258] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 09:17:50,261] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 09:17:50,410] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 09:17:50,413] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (9 * FORM) * (FILE * EFORM)
-[30.11.2016 09:17:50,414] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 09:17:50,913] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 106.6 MB
-[30.11.2016 09:17:51,018] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
-[30.11.2016 09:17:51,018] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (9 * FORM) * (FILE * EFORM)
-[30.11.2016 09:17:51,019] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 09:33:30,487] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 09:33:30,497] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 09:33:30,507] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 09:33:30,588] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 09:33:30,609] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 09:35:35,424] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 09:35:35,430] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 09:35:35,444] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 09:35:35,520] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 09:35:35,522] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 09:36:09,104] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 09:36:09,108] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 09:36:09,120] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 09:36:09,169] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 09:36:09,173] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
-[30.11.2016 09:37:01,550] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 09:37:01,554] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 09:37:01,563] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 09:37:01,639] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 09:37:01,648] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 09:49:06,577] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 09:49:06,587] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 09:49:06,599] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 09:49:06,779] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 09:49:06,785] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 09:49:45,184] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 09:49:45,190] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 09:49:45,203] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 09:49:45,250] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 09:49:45,253] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 09:58:50,729] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 09:58:50,735] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 09:58:50,748] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 09:58:50,805] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 09:58:50,808] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 09:59:09,115] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 09:59:09,119] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 09:59:09,129] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 09:59:09,218] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 09:59:09,219] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 10:08:52,301] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
-[30.11.2016 10:08:52,307] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
-[30.11.2016 10:08:52,332] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
-[30.11.2016 10:08:52,387] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
-[30.11.2016 10:08:52,389] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
-[30.11.2016 10:08:52,865] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
-[30.11.2016 10:08:52,868] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (EFILE + EFILE) * (6 * EFORM)
-[30.11.2016 10:08:52,868] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
-[30.11.2016 10:08:54,810] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 99.8 MB
-[30.11.2016 10:08:55,165] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
-[30.11.2016 10:08:55,166] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (EFILE + EFILE) * (6 * EFORM)
-[30.11.2016 10:08:55,166] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[01.12.2016 11:28:28,639] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,641] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,643] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,644] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,646] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,648] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,649] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,650] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,651] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,653] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,654] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,655] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,656] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,657] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,658] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,660] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,662] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,664] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,665] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,666] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,668] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,669] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,670] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,673] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,674] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,676] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,677] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,679] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,680] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,681] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,682] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,684] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,685] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,687] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,688] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,690] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,692] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,693] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,695] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,696] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,697] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,698] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,700] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,701] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,702] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,703] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,704] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,705] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,706] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,707] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,708] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,709] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,711] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,714] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,715] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,716] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,717] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,719] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:28:28,779] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 11:28:28,780] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.5 MB
+[01.12.2016 11:28:29,074] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 158.0
+[01.12.2016 11:28:29,094] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((3.0 + 3.0) + (3.0 * 3.0)) + 3.0) + (3.0 + ((3.0 * 3.0) * 4.0))
+[01.12.2016 11:28:29,095] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:28:29,366] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 156.0
+[01.12.2016 11:28:29,367] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (5.0 + (7.0 * 7.0)) + 5.0
+[01.12.2016 11:28:29,368] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 11:28:30,842] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 112.2 MB
+[01.12.2016 11:28:31,074] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 156.0
+[01.12.2016 11:28:31,075] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (5.0 + (7.0 * 7.0)) + 5.0
+[01.12.2016 11:28:31,075] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 11:29:10,337] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 11:29:10,349] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 11:29:10,382] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 11:29:10,432] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,434] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,438] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,440] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,445] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,447] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,450] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,453] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,455] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,458] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,460] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,464] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,466] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,470] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,480] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,493] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,495] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,497] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,500] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,510] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,516] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,520] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,523] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,532] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,534] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,537] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,541] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,555] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,559] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,562] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,564] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,566] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,570] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,572] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,573] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,576] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,578] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,580] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,582] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,583] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,585] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,587] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,590] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,592] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,594] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,596] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,598] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,600] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,602] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,604] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,607] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,611] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,613] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,615] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,617] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,618] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,621] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,622] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,624] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,625] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,626] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,627] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,628] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,634] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,637] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,638] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,640] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,642] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,643] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,644] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,646] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,647] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,648] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,649] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,651] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,652] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,654] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,655] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,657] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,659] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,661] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,662] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,663] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,667] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,669] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,670] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,673] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,675] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,676] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,678] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,679] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,680] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,682] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,684] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,685] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,686] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,687] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,689] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,691] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,695] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,697] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,700] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,703] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,708] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,709] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,711] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,715] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,716] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,718] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,719] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,721] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,722] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,723] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,725] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,727] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,728] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,729] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,731] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,731] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,733] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,735] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,737] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,738] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,741] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,743] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,744] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,746] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,747] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,749] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,750] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,751] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,753] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,754] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,756] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,757] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,758] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,759] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,760] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,760] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,761] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,762] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,763] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,764] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,765] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,766] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,767] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,767] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,768] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,769] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,769] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,770] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,771] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,772] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,773] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,774] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,776] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,781] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,783] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,784] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,785] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,786] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,787] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,789] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,792] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,793] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,794] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,796] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,798] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,801] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,802] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,804] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,806] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,815] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,821] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,823] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,826] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,827] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,828] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,830] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,831] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,832] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,834] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,835] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,841] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,842] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,844] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,846] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,849] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,851] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,870] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,873] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,876] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,878] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,879] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,882] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,883] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,884] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,885] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,886] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,887] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,888] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,889] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,890] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,891] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,892] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,893] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,894] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,894] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,895] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,896] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,897] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,898] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,898] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,899] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,902] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,904] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,904] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,905] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,906] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,907] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,908] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,909] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,910] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,910] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,911] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,912] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,913] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,913] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,914] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,915] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,916] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,916] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,917] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,918] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,919] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,920] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,922] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,924] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,925] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,926] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,927] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,927] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,928] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,929] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,930] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,931] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,933] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,935] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,937] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:10,938] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[01.12.2016 11:29:11,002] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 11:29:11,009] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.6 MB
+[01.12.2016 11:29:11,284] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:29:11,285] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 3
+[01.12.2016 11:29:11,286] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 11:29:12,634] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 177.8 MB
+[01.12.2016 11:29:12,952] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:29:12,953] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 3
+[01.12.2016 11:29:12,953] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 11:29:59,588] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 11:29:59,599] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 11:29:59,628] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 11:29:59,825] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 11:29:59,828] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 117.7 MB
+[01.12.2016 11:30:00,094] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:30:00,099] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 1 + 1
+[01.12.2016 11:30:00,100] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 1
+[01.12.2016 11:30:01,071] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 96.1 MB
+[01.12.2016 11:30:01,270] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:30:01,271] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 1 + 1
+[01.12.2016 11:30:01,272] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 1
+[01.12.2016 11:31:01,862] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 11:31:01,873] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 11:31:01,906] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 11:31:02,112] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 11:31:02,118] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 11:31:02,386] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:31:02,387] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 3
+[01.12.2016 11:31:02,388] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 11:31:03,621] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 104.2 MB
+[01.12.2016 11:31:03,842] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:31:03,843] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 3
+[01.12.2016 11:31:03,843] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 11:34:07,460] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 11:34:07,472] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 11:34:07,502] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 11:34:07,627] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 11:34:07,632] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 11:34:08,512] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:34:08,518] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (2 * FORM) * (SCRN + FILE)
+[01.12.2016 11:34:08,520] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[01.12.2016 11:34:30,009] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 11:34:30,022] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 11:34:30,045] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 11:34:30,183] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 11:34:30,187] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 11:34:31,060] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:34:31,065] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (10 * KLOC) * (SCRN + EFORM)
+[01.12.2016 11:34:31,066] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[01.12.2016 11:35:01,521] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 11:35:01,536] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 11:35:01,593] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 11:35:01,764] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 11:35:01,768] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 11:35:02,452] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:35:02,453] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 8
+[01.12.2016 11:35:02,454] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 11:35:08,324] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 103.0 MB
+[01.12.2016 11:35:09,420] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 379.0
+[01.12.2016 11:35:09,421] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: 8
+[01.12.2016 11:35:09,422] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 11:37:38,759] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 11:37:38,767] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 11:37:38,792] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 11:37:38,960] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 11:37:38,965] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 11:37:39,220] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 304.0
+[01.12.2016 11:37:39,227] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((FORM - EFORM) / (KLOC * KLOC)) + (((FORM + KLOC) - (5 - _ESCRN)) / (EFILE + 6))
+[01.12.2016 11:37:39,228] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:37:39,504] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 283.0
+[01.12.2016 11:37:39,507] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((FILE + KLOC) * (SCRN / FORM)) / EFILE
+[01.12.2016 11:37:39,508] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 11:37:39,638] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 278.0
+[01.12.2016 11:37:39,639] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (KLOC / EFILE) * (FILE / EFILE)
+[01.12.2016 11:37:39,639] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[01.12.2016 11:37:39,726] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 256.0
+[01.12.2016 11:37:39,728] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (FORM / EFILE) * ((_ESCRN / EFILE) + (SCRN / EFILE))
+[01.12.2016 11:37:39,729] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 11:37:39,873] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 239.0
+[01.12.2016 11:37:39,874] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (FORM / EFILE) * ((_ESCRN / EFILE) + ((FORM / (_ESCRN / KLOC)) / EFILE))
+[01.12.2016 11:37:39,874] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
+[01.12.2016 11:37:40,287] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 221.0
+[01.12.2016 11:37:40,288] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((SCRN / EFILE) + (SCRN / EFILE)) + ((FORM / EFILE) * ((_ESCRN / EFILE) + (KLOC / EFILE)))
+[01.12.2016 11:37:40,289] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:37:40,399] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 219.0
+[01.12.2016 11:37:40,400] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((SCRN / EFILE) + (SCRN / EFILE)) + ((FORM / EFILE) * ((SCRN / EFILE) + (SCRN / EFILE)))
+[01.12.2016 11:37:40,403] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:37:40,597] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 93.4 MB
+[01.12.2016 11:37:40,905] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 217.0
+[01.12.2016 11:37:40,906] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((_ESCRN / EFILE) + (KLOC / EFILE)) + ((FORM / EFILE) * ((FORM / EFILE) + (KLOC / EFILE)))
+[01.12.2016 11:37:40,907] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:37:40,908] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 217.0
+[01.12.2016 11:37:40,909] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((_ESCRN / EFILE) + (KLOC / EFILE)) + ((FORM / EFILE) * ((FORM / EFILE) + (KLOC / EFILE)))
+[01.12.2016 11:37:40,909] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:37:57,918] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 11:37:57,929] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 11:37:57,951] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 11:37:58,102] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 11:37:58,104] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 11:37:58,314] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 325.0
+[01.12.2016 11:37:58,320] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((FILE + SCRN) * (KLOC + EFILE)) / ((FILE * FILE) + (FORM + EFORM))
+[01.12.2016 11:37:58,322] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 11:37:58,428] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 323.0
+[01.12.2016 11:37:58,429] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (_ESCRN + EFORM) / EFILE
+[01.12.2016 11:37:58,430] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 2
+[01.12.2016 11:37:58,511] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 314.0
+[01.12.2016 11:37:58,512] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((_ESCRN / EFILE) + (FILE / _ESCRN)) / (EFORM / FILE)
+[01.12.2016 11:37:58,513] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 11:37:58,582] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 296.0
+[01.12.2016 11:37:58,585] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((SCRN * SCRN) / (EFORM * KLOC)) * (SCRN / FORM)
+[01.12.2016 11:37:58,586] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 11:37:58,668] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 226.0
+[01.12.2016 11:37:58,670] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((SCRN * SCRN) / (EFORM * KLOC)) * ((KLOC / EFILE) + (SCRN / KLOC))
+[01.12.2016 11:37:58,670] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 11:37:59,041] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 211.0
+[01.12.2016 11:37:59,041] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (KLOC / EFILE) + (((SCRN * SCRN) / (EFORM * KLOC)) * (SCRN / EFILE))
+[01.12.2016 11:37:59,042] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:37:59,078] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 209.0
+[01.12.2016 11:37:59,079] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((SCRN * SCRN) / (EFORM * KLOC)) * ((SCRN / EFILE) + (KLOC / FILE))
+[01.12.2016 11:37:59,079] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 3
+[01.12.2016 11:37:59,158] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 203.0
+[01.12.2016 11:37:59,159] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((SCRN / FORM) + (FORM / EFILE)) + (((SCRN * SCRN) / (EFORM * KLOC)) * (SCRN / EFILE))
+[01.12.2016 11:37:59,160] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:37:59,336] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 198.0
+[01.12.2016 11:37:59,337] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (FILE / EFILE) + (((SCRN / EFORM) * ((SCRN / EFORM) + (FILE / EFILE))) + (KLOC / EFILE))
+[01.12.2016 11:37:59,339] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
+[01.12.2016 11:37:59,460] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 182.0
+[01.12.2016 11:37:59,461] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (((KLOC / EFILE) + (KLOC / EFILE)) * ((FORM / EFILE) + (SCRN / FILE))) + (KLOC / EFILE)
+[01.12.2016 11:37:59,462] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:37:59,621] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 94.2 MB
+[01.12.2016 11:37:59,711] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 181.0
+[01.12.2016 11:37:59,712] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (KLOC / EFILE) * ((EFORM / SCRN) + ((SCRN / EFORM) + ((FORM / EFILE) + (FORM / EFILE))))
+[01.12.2016 11:37:59,713] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 5
+[01.12.2016 11:37:59,767] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 177.0
+[01.12.2016 11:37:59,769] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((FILE / EFILE) + ((KLOC / FILE) + (KLOC / EFILE))) * ((FORM / EFILE) + (SCRN / FILE))
+[01.12.2016 11:37:59,770] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 11:37:59,856] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 177.0
+[01.12.2016 11:37:59,857] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: ((FILE / EFILE) + ((KLOC / FILE) + (KLOC / EFILE))) * ((FORM / EFILE) + (SCRN / FILE))
+[01.12.2016 11:37:59,859] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 4
+[01.12.2016 12:19:31,978] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:19:32,279] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:19:32,306] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:19:32,369] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:19:32,370] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:24:10,989] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:24:10,993] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:24:11,002] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:24:11,045] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:24:11,046] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:24:11,147] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:24:11,147] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:24:11,148] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:24:11,536] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 99.1 MB
+[01.12.2016 12:24:11,612] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:24:11,612] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:24:11,612] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:24:44,421] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:24:44,425] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:24:44,437] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:24:44,486] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:24:44,487] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:24:44,599] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:24:44,599] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:24:44,599] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:24:44,971] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 96.6 MB
+[01.12.2016 12:24:45,030] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:24:45,031] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:24:45,031] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:25:35,930] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:25:35,933] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:25:35,943] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:25:35,995] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:25:35,996] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:27:05,129] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:27:05,133] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:27:05,142] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:27:05,191] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:27:05,193] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:27:36,385] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:27:36,389] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:27:36,399] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:27:36,451] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:27:36,452] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
+[01.12.2016 12:28:10,435] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:28:10,438] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:28:10,447] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:28:10,501] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:28:10,502] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:28:10,642] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:28:10,664] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:28:10,665] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:28:11,055] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 96.6 MB
+[01.12.2016 12:28:11,120] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:28:11,120] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:28:11,120] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:28:39,058] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:28:39,061] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:28:39,069] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:28:39,122] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:28:39,125] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:28:42,038] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:28:42,038] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:28:42,039] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:29:11,136] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:29:11,140] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:29:11,149] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:29:11,200] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:29:11,201] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:29:14,432] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:29:14,432] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:29:14,433] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:29:29,628] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:29:29,632] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:29:29,643] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:29:29,692] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:29:29,693] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
+[01.12.2016 12:29:32,135] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:29:32,136] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:29:32,136] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:29:36,694] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:29:36,697] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:29:36,707] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:29:36,753] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:29:36,754] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:29:39,876] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:29:39,877] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:29:39,877] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:30:18,432] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:30:18,436] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:30:18,445] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:30:18,493] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:30:18,494] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:30:18,640] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:30:18,640] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:30:18,641] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:30:19,223] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 87.5 MB
+[01.12.2016 12:30:19,350] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:30:19,351] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:30:19,351] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:31:06,164] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:31:06,167] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:31:06,176] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:31:06,226] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:31:06,228] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:31:06,329] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:31:06,330] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:31:06,330] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:31:06,718] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 96.5 MB
+[01.12.2016 12:31:06,783] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:31:06,783] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:31:06,783] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:31:31,258] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:31:31,263] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:31:31,270] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:31:31,318] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:31:31,319] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:35:30,452] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:35:30,456] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:35:30,466] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:35:30,517] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:35:30,519] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.7 MB
+[01.12.2016 12:35:30,664] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:35:30,668] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:35:30,668] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:35:31,132] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 99.0 MB
+[01.12.2016 12:35:31,201] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:35:31,201] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:35:31,201] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:37:14,504] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[01.12.2016 12:37:14,508] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 121.0 MB
+[01.12.2016 12:37:14,517] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[01.12.2016 12:37:14,563] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 121.0 MB
+[01.12.2016 12:37:14,566] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 118.1 MB
+[01.12.2016 12:37:14,709] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:37:14,709] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:37:14,709] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
+[01.12.2016 12:37:15,252] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 25, memory free: 152.6 MB
+[01.12.2016 12:37:15,361] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 0.0
+[01.12.2016 12:37:15,361] [main] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: EFILE
+[01.12.2016 12:37:15,361] [main] INFO  org.jgap.gp.impl.GPGenotype  - Depth of chrom: 0
