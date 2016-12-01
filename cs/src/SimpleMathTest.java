@@ -21,13 +21,6 @@ import org.jgap.gp.terminal.Variable;
 public class SimpleMathTest extends GPProblem {
 
 	static FileParser fp = new FileParser();
-	private Variable _KLOC;
-	private Variable _SCRN;
-	private Variable _FORM;
-	private Variable _FILE;
-	private Variable _ESCRN;
-	private Variable _EFORM;
-	private Variable _EFILE;
 
 	/* Custom Params */
 	private List<List<Double>> totalInput = fp.file();
@@ -35,29 +28,17 @@ public class SimpleMathTest extends GPProblem {
 	private List<Double> OUTPUTtotal = totalInput.get(size);
 
 	// Labels for each column
-	private ArrayList<Variable> labels = new ArrayList<Variable>();
+	private List<String> labels = fp.getLabels();
+	List<Variable> labels4dayz = new ArrayList<Variable>();
 
 	public SimpleMathTest() throws InvalidConfigurationException {
 		super(new GPConfiguration());
 
 		GPConfiguration config = getGPConfiguration();
 
-		// Custom label maker
-		_KLOC = Variable.create(config, "KLOC", CommandGene.DoubleClass);
-		_SCRN = Variable.create(config, "SCRN", CommandGene.DoubleClass);
-		_FORM = Variable.create(config, "FORM", CommandGene.DoubleClass);
-		_FILE = Variable.create(config, "FILE", CommandGene.DoubleClass);
-		_ESCRN = Variable.create(config, "_ESCRN", CommandGene.DoubleClass);
-		_EFORM = Variable.create(config, "EFORM", CommandGene.DoubleClass);
-		_EFILE = Variable.create(config, "EFILE", CommandGene.DoubleClass);
-
-		labels.add(_KLOC);
-		labels.add(_SCRN);
-		labels.add(_FORM);
-		labels.add(_FILE);
-		labels.add(_ESCRN);
-		labels.add(_EFORM);
-		labels.add(_EFILE);
+		for (int i = 0; i < labels.size()-1; i++) {
+			labels4dayz.add(Variable.create(config, labels.get(i), CommandGene.DoubleClass));
+		}
 
 		config.setGPFitnessEvaluator(new DeltaGPFitnessEvaluator());
 		config.setMaxInitDepth(4);
@@ -68,7 +49,8 @@ public class SimpleMathTest extends GPProblem {
 		for (int i = 0; i < totalInput.size() - 1; i++) {
 			INPUT.add(totalInput.get(i));
 		}
-		config.setFitnessFunction(new SimpleMathTestFitnessFunction(INPUT, OUTPUTtotal, labels));
+
+		config.setFitnessFunction(new SimpleMathTestFitnessFunction(INPUT, OUTPUTtotal, labels4dayz));
 		config.setStrictProgramCreation(true);
 	}
 
@@ -83,8 +65,8 @@ public class SimpleMathTest extends GPProblem {
 		Class[][] argTypes = { {} };
 
 		ArrayList<CommandGene> badLabels = new ArrayList<CommandGene>();
-		for (int i = 0; i < labels.size(); i++) {
-			badLabels.add(labels.get(i));
+		for (int i = 0; i < labels4dayz.size(); i++) {
+			badLabels.add(labels4dayz.get(i));
 		}
 
 		badLabels.add(new Add(config, CommandGene.DoubleClass));

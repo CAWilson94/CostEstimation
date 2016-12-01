@@ -13,6 +13,7 @@ public class FileParser {
 
 	public List<String> boop;
 	List<List<Double>> attributes = new ArrayList<List<Double>>();
+	List<String> labels4dayz = new ArrayList<String>();
 
 	public List<List<Double>> file() {
 
@@ -21,17 +22,22 @@ public class FileParser {
 
 			String currentLine = " ";
 
-			br = new BufferedReader(new FileReader("miyazaki94.arff"));
+			br = new BufferedReader(new FileReader("china.arff.txt"));
 
 			while (!(currentLine.contains("@data"))) {
 				currentLine = br.readLine();
+				if (currentLine.contains("@attribute")) {
+					String[] tokens = currentLine.split(" ");
+					labels4dayz.add(tokens[1]);
+				}
+
 			}
 
 			currentLine = br.readLine();
 			String[] tokens = currentLine.split(",");
 			boop = new ArrayList<String>(Arrays.asList(tokens));
 			int numAttributes = boop.size();
-			System.out.println(numAttributes);
+			// System.out.println(numAttributes);
 
 			for (int i = 1; i < numAttributes; i++) {
 				List<Double> list = new ArrayList<>();
@@ -39,20 +45,20 @@ public class FileParser {
 			}
 
 			while (currentLine != null) {
-				System.out.println("Current Line: " + currentLine);
+				// System.out.println("Current Line: " + currentLine);
 				String[] columnSplit = currentLine.split(",");
 				// put each column into relevant array
-				System.out.println(currentLine + "SO IT BEGINS");
+				// System.out.println(currentLine + "SO IT BEGINS");
 
-				for (int i = 1; i < columnSplit.length; i++) { // Skips Id's  
+				for (int i = 1; i < columnSplit.length; i++) { // Skips Id's
 					attributes.get(i - 1).add(Double.parseDouble(columnSplit[i]));
 				}
 				currentLine = br.readLine();
 			}
 			// attributes.remove(0);
-			System.out.println("looping attributes/n");
-			loopAttributes(attributes);
-			System.out.println("Done looping");
+			// System.out.println("looping attributes/n");
+			// loopAttributes(attributes);
+			// System.out.println("Done looping");
 
 			br.close();
 
@@ -68,6 +74,11 @@ public class FileParser {
 
 	}
 
+	public List<String> getLabels() {
+		labels4dayz.remove(0);
+		return labels4dayz;
+	}
+
 	public void loopAttributes(List<List<Double>> attributes2) {
 		// Just to loop through all the attributes for later on!
 		for (List<Double> f : attributes) {
@@ -75,10 +86,10 @@ public class FileParser {
 		}
 	}
 
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		FileParser fp = new FileParser();
 		fp.file();
+		System.out.println(fp.getLabels());
 	}
 
 }
- 
